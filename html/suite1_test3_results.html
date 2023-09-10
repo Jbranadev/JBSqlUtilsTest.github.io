@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test SadDay</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</th>
+	    <th id="testClassNameId" hidden="true">JBSqlUtilsTestSadDay</th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">JBSqlUtils</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\josec\IdeaProjects\JBSqlUtils\JBSqlUtilsTest.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">JBSqlUtilsTest.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:00:00</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>34</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+				
+				
+				
+												<tr>
+			<td class="time">1694363798396</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('f6018aba-5bf0-4da0-992b-0d5778b0f241','block');changeSingleIcon('span-f6018aba-5bf0-4da0-992b-0d5778b0f241');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f6018aba-5bf0-4da0-992b-0d5778b0f241' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798396</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>addColumnTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.009s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="f6018aba-5bf0-4da0-992b-0d5778b0f241" style="display: block;">
+						<a href="javascript:toggleElement('exception-f6018aba-5bf0-4da0-992b-0d5778b0f241','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: La columna proporcionada es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-f6018aba-5bf0-4da0-992b-0d5778b0f241">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AddColumn.&lt;init&gt;(AddColumn.java:40)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.CreateTable.addColumn(CreateTable.java:44)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.addColumnTableJBSqlUtils(JBSqlUtilsTestSadDay.java:154)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798533</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('afb35611-0321-41ab-9491-29f6ba84960b','block');changeSingleIcon('span-afb35611-0321-41ab-9491-29f6ba84960b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-afb35611-0321-41ab-9491-29f6ba84960b' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798533</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>orderByOperatorJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="afb35611-0321-41ab-9491-29f6ba84960b" style="display: block;">
+						<a href="javascript:toggleElement('exception-afb35611-0321-41ab-9491-29f6ba84960b','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El tipo de ordenamiento proporcionado es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-afb35611-0321-41ab-9491-29f6ba84960b">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.OrderBy.&lt;init&gt;(OrderBy.java:120)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsWhere.orderBy(MethodsWhere.java:61)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.orderByOperatorJBSqlUtils(JBSqlUtilsTestSadDay.java:372)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798369</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('13282444-6005-4ea5-90e4-26d9e8b4874a','block');changeSingleIcon('span-13282444-6005-4ea5-90e4-26d9e8b4874a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-13282444-6005-4ea5-90e4-26d9e8b4874a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798369</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>insertIntoTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="13282444-6005-4ea5-90e4-26d9e8b4874a" style="display: block;">
+						<a href="javascript:toggleElement('exception-13282444-6005-4ea5-90e4-26d9e8b4874a','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la Tabla proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-13282444-6005-4ea5-90e4-26d9e8b4874a">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.InsertInto.&lt;init&gt;(InsertInto.java:26)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.insertInto(JBSqlUtils.java:278)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.insertIntoTableJBSqlUtils(JBSqlUtilsTestSadDay.java:109)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798466</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('59857b36-0b69-4471-ae4e-a41b0fb160f4','block');changeSingleIcon('span-59857b36-0b69-4471-ae4e-a41b0fb160f4');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-59857b36-0b69-4471-ae4e-a41b0fb160f4' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798466</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>whereColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.011s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="59857b36-0b69-4471-ae4e-a41b0fb160f4" style="display: block;">
+						<a href="javascript:toggleElement('exception-59857b36-0b69-4471-ae4e-a41b0fb160f4','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-59857b36-0b69-4471-ae4e-a41b0fb160f4">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Where.&lt;init&gt;(Where.java:121)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.where(AndSet.java:116)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.whereColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:251)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798506</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('748034a7-1d55-474c-8225-69bb77322ff4','block');changeSingleIcon('span-748034a7-1d55-474c-8225-69bb77322ff4');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-748034a7-1d55-474c-8225-69bb77322ff4' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798506</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>orValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="748034a7-1d55-474c-8225-69bb77322ff4" style="display: block;">
+						<a href="javascript:toggleElement('exception-748034a7-1d55-474c-8225-69bb77322ff4','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-748034a7-1d55-474c-8225-69bb77322ff4">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Or.&lt;init&gt;(Or.java:132)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.or(MethodsTake.java:92)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.orValueJBSqlUtils(JBSqlUtilsTestSadDay.java:325)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798339</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a0c63296-fa24-48c4-9e91-3974b606593a','block');changeSingleIcon('span-a0c63296-fa24-48c4-9e91-3974b606593a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a0c63296-fa24-48c4-9e91-3974b606593a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798339</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>propertiesDBUndefined</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a0c63296-fa24-48c4-9e91-3974b606593a" style="display: block;">
+						<a href="javascript:toggleElement('exception-a0c63296-fa24-48c4-9e91-3974b606593a','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.PropertiesDBUndefined: No se a seteado la BD&apos;s a la cual deseamos se pegue JBSqlUtils</b></a><br/>
+		<div class="stackTrace" id="exception-a0c63296-fa24-48c4-9e91-3974b606593a">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Conexion.getBD(Conexion.java:759)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.getBD(JBSqlUtils.java:37)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.propertiesDBUndefined(JBSqlUtilsTestSadDay.java:34)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798347</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1c5c0e93-32c9-4faf-a7eb-edb51597fda9','block');changeSingleIcon('span-1c5c0e93-32c9-4faf-a7eb-edb51597fda9');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1c5c0e93-32c9-4faf-a7eb-edb51597fda9' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798347</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>conexionUndefined</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1c5c0e93-32c9-4faf-a7eb-edb51597fda9" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798440</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d20527ef-e157-4e9f-a30c-61b65c959ac5','block');changeSingleIcon('span-d20527ef-e157-4e9f-a30c-61b65c959ac5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d20527ef-e157-4e9f-a30c-61b65c959ac5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798440</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andValueColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d20527ef-e157-4e9f-a30c-61b65c959ac5" style="display: block;">
+						<a href="javascript:toggleElement('exception-d20527ef-e157-4e9f-a30c-61b65c959ac5','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-d20527ef-e157-4e9f-a30c-61b65c959ac5">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndValue.&lt;init&gt;(AndValue.java:50)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndValue.andValue(AndValue.java:76)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andValueColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:196)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798407</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('3d3e0505-8505-4e90-9906-708b48515fe6','block');changeSingleIcon('span-3d3e0505-8505-4e90-9906-708b48515fe6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-3d3e0505-8505-4e90-9906-708b48515fe6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798407</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>addColumnTable2JBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.017s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="3d3e0505-8505-4e90-9906-708b48515fe6" style="display: block;">
+						<a href="javascript:toggleElement('exception-3d3e0505-8505-4e90-9906-708b48515fe6','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: La columna proporcionada es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-3d3e0505-8505-4e90-9906-708b48515fe6">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AddColumn.&lt;init&gt;(AddColumn.java:64)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AddColumn.addColumn(AddColumn.java:83)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.addColumnTable2JBSqlUtils(JBSqlUtilsTestSadDay.java:169)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798517</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a2ee17b1-9a01-4059-bf9c-ba696976d466','block');changeSingleIcon('span-a2ee17b1-9a01-4059-bf9c-ba696976d466');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a2ee17b1-9a01-4059-bf9c-ba696976d466' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798517</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openParentecisOperatorJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a2ee17b1-9a01-4059-bf9c-ba696976d466" style="display: block;">
+						<a href="javascript:toggleElement('exception-a2ee17b1-9a01-4059-bf9c-ba696976d466','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El operador proporcionado es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-a2ee17b1-9a01-4059-bf9c-ba696976d466">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.openParentecis.&lt;init&gt;(openParentecis.java:124)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.openParentecis(MethodsTake.java:123)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.openParentecisOperatorJBSqlUtils(JBSqlUtilsTestSadDay.java:344)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798437</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('be6ddc1a-0f60-4cd5-988a-0cad9cf78f38','block');changeSingleIcon('span-be6ddc1a-0f60-4cd5-988a-0cad9cf78f38');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-be6ddc1a-0f60-4cd5-988a-0cad9cf78f38' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798437</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>valueColumnValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="be6ddc1a-0f60-4cd5-988a-0cad9cf78f38" style="display: block;">
+						<a href="javascript:toggleElement('exception-be6ddc1a-0f60-4cd5-988a-0cad9cf78f38','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-be6ddc1a-0f60-4cd5-988a-0cad9cf78f38">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Value.&lt;init&gt;(Value.java:40)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.InsertInto.value(InsertInto.java:42)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.valueColumnValueJBSqlUtils(JBSqlUtilsTestSadDay.java:187)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798429</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2f24538b-77c3-41de-ade9-b2e8539c10cb','block');changeSingleIcon('span-2f24538b-77c3-41de-ade9-b2e8539c10cb');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-2f24538b-77c3-41de-ade9-b2e8539c10cb' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798429</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>valueColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.005s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="2f24538b-77c3-41de-ade9-b2e8539c10cb" style="display: block;">
+						<a href="javascript:toggleElement('exception-2f24538b-77c3-41de-ade9-b2e8539c10cb','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-2f24538b-77c3-41de-ade9-b2e8539c10cb">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Value.&lt;init&gt;(Value.java:33)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.InsertInto.value(InsertInto.java:42)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.valueColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:178)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798454</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('fe37980e-15a2-4b59-a338-9d5999aca9e9','block');changeSingleIcon('span-fe37980e-15a2-4b59-a338-9d5999aca9e9');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fe37980e-15a2-4b59-a338-9d5999aca9e9' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798454</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>setValueColumnValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="fe37980e-15a2-4b59-a338-9d5999aca9e9" style="display: block;">
+						<a href="javascript:toggleElement('exception-fe37980e-15a2-4b59-a338-9d5999aca9e9','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-fe37980e-15a2-4b59-a338-9d5999aca9e9">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Set.&lt;init&gt;(Set.java:60)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Update.set(Update.java:62)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.setValueColumnValueJBSqlUtils(JBSqlUtilsTestSadDay.java:223)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798524</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d20faf95-1b4e-4b48-a5d4-7a73db6c6cf0','block');changeSingleIcon('span-d20faf95-1b4e-4b48-a5d4-7a73db6c6cf0');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d20faf95-1b4e-4b48-a5d4-7a73db6c6cf0' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798524</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>orderByColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.007s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d20faf95-1b4e-4b48-a5d4-7a73db6c6cf0" style="display: block;">
+						<a href="javascript:toggleElement('exception-d20faf95-1b4e-4b48-a5d4-7a73db6c6cf0','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-d20faf95-1b4e-4b48-a5d4-7a73db6c6cf0">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.OrderBy.&lt;init&gt;(OrderBy.java:117)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsWhere.orderBy(MethodsWhere.java:61)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.orderByColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:363)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798503</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('28448427-7704-4295-8e77-c3a5f5f14df9','block');changeSingleIcon('span-28448427-7704-4295-8e77-c3a5f5f14df9');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-28448427-7704-4295-8e77-c3a5f5f14df9' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798503</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="28448427-7704-4295-8e77-c3a5f5f14df9" style="display: block;">
+						<a href="javascript:toggleElement('exception-28448427-7704-4295-8e77-c3a5f5f14df9','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-28448427-7704-4295-8e77-c3a5f5f14df9">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.And.&lt;init&gt;(And.java:131)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.and(MethodsTake.java:66)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andValueJBSqlUtils(JBSqlUtilsTestSadDay.java:297)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798494</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('509ed042-2098-4198-8e16-c24bf258710f','block');changeSingleIcon('span-509ed042-2098-4198-8e16-c24bf258710f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-509ed042-2098-4198-8e16-c24bf258710f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798494</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andOperatorJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="509ed042-2098-4198-8e16-c24bf258710f" style="display: block;">
+						<a href="javascript:toggleElement('exception-509ed042-2098-4198-8e16-c24bf258710f','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El operador proporcionado es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-509ed042-2098-4198-8e16-c24bf258710f">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.And.&lt;init&gt;(And.java:134)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.and(MethodsTake.java:66)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andOperatorJBSqlUtils(JBSqlUtilsTestSadDay.java:288)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798379</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('61b44bc0-237f-4e33-9bfe-dbde7bfcdbff','block');changeSingleIcon('span-61b44bc0-237f-4e33-9bfe-dbde7bfcdbff');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-61b44bc0-237f-4e33-9bfe-dbde7bfcdbff' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798379</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>updateTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="61b44bc0-237f-4e33-9bfe-dbde7bfcdbff" style="display: block;">
+						<a href="javascript:toggleElement('exception-61b44bc0-237f-4e33-9bfe-dbde7bfcdbff','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la Tabla proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-61b44bc0-237f-4e33-9bfe-dbde7bfcdbff">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Update.&lt;init&gt;(Update.java:42)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.update(JBSqlUtils.java:306)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.updateTableJBSqlUtils(JBSqlUtilsTestSadDay.java:129)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798366</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('317f1e0d-767d-47c1-9217-8ed1bf62e52f','block');changeSingleIcon('span-317f1e0d-767d-47c1-9217-8ed1bf62e52f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-317f1e0d-767d-47c1-9217-8ed1bf62e52f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798366</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>deleteTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="317f1e0d-767d-47c1-9217-8ed1bf62e52f" style="display: block;">
+						<a href="javascript:toggleElement('exception-317f1e0d-767d-47c1-9217-8ed1bf62e52f','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la Tabla proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-317f1e0d-767d-47c1-9217-8ed1bf62e52f">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Delete.&lt;init&gt;(Delete.java:43)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.delete(JBSqlUtils.java:318)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.deleteTableJBSqlUtils(JBSqlUtilsTestSadDay.java:99)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798510</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2d780f1b-af2f-4cf0-bf02-21e31c5a36c5','block');changeSingleIcon('span-2d780f1b-af2f-4cf0-bf02-21e31c5a36c5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-2d780f1b-af2f-4cf0-bf02-21e31c5a36c5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798510</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>orColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="2d780f1b-af2f-4cf0-bf02-21e31c5a36c5" style="display: block;">
+						<a href="javascript:toggleElement('exception-2d780f1b-af2f-4cf0-bf02-21e31c5a36c5','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-2d780f1b-af2f-4cf0-bf02-21e31c5a36c5">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Or.&lt;init&gt;(Or.java:129)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.or(MethodsTake.java:92)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.orColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:307)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798485</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('84d3048f-cf36-4486-bda2-2d5a38f0e453','block');changeSingleIcon('span-84d3048f-cf36-4486-bda2-2d5a38f0e453');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-84d3048f-cf36-4486-bda2-2d5a38f0e453' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798485</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>whereValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="84d3048f-cf36-4486-bda2-2d5a38f0e453" style="display: block;">
+						<a href="javascript:toggleElement('exception-84d3048f-cf36-4486-bda2-2d5a38f0e453','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-84d3048f-cf36-4486-bda2-2d5a38f0e453">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Where.&lt;init&gt;(Where.java:124)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.where(AndSet.java:116)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.whereValueJBSqlUtils(JBSqlUtilsTestSadDay.java:269)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798513</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('77e96d80-e8a0-424e-800d-8c8dbb668d5a','block');changeSingleIcon('span-77e96d80-e8a0-424e-800d-8c8dbb668d5a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-77e96d80-e8a0-424e-800d-8c8dbb668d5a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798513</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openParentecisColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="77e96d80-e8a0-424e-800d-8c8dbb668d5a" style="display: block;">
+						<a href="javascript:toggleElement('exception-77e96d80-e8a0-424e-800d-8c8dbb668d5a','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-77e96d80-e8a0-424e-800d-8c8dbb668d5a">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.openParentecis.&lt;init&gt;(openParentecis.java:118)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.openParentecis(MethodsTake.java:123)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.openParentecisColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:335)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798344</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('332c835a-e183-4828-a9a4-aed6bd8dad7f','block');changeSingleIcon('span-332c835a-e183-4828-a9a4-aed6bd8dad7f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-332c835a-e183-4828-a9a4-aed6bd8dad7f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798344</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>DataBaseTypeUndefined</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="332c835a-e183-4828-a9a4-aed6bd8dad7f" style="display: block;">
+						<a href="javascript:toggleElement('exception-332c835a-e183-4828-a9a4-aed6bd8dad7f','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.DataBaseUndefind: No se a seteado la DataBase que índica a que BD&apos;s deseamos se pegue JBSqlUtils</b></a><br/>
+		<div class="stackTrace" id="exception-332c835a-e183-4828-a9a4-aed6bd8dad7f">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Conexion.getDataBaseType(Conexion.java:479)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.getDataBaseType(JBSqlUtils.java:37)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.DataBaseTypeUndefined(JBSqlUtilsTestSadDay.java:52)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798478</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4f8ec833-7b45-4942-8d7b-b4a0c7416326','block');changeSingleIcon('span-4f8ec833-7b45-4942-8d7b-b4a0c7416326');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4f8ec833-7b45-4942-8d7b-b4a0c7416326' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798478</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>whereOperatorJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="4f8ec833-7b45-4942-8d7b-b4a0c7416326" style="display: block;">
+						<a href="javascript:toggleElement('exception-4f8ec833-7b45-4942-8d7b-b4a0c7416326','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El operador proporcionado es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-4f8ec833-7b45-4942-8d7b-b4a0c7416326">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Where.&lt;init&gt;(Where.java:127)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.where(AndSet.java:116)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.whereOperatorJBSqlUtils(JBSqlUtilsTestSadDay.java:260)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798457</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b002cb1b-88c4-48ff-8309-d6ba10d9fd29','block');changeSingleIcon('span-b002cb1b-88c4-48ff-8309-d6ba10d9fd29');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-b002cb1b-88c4-48ff-8309-d6ba10d9fd29' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798457</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andSetValueColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b002cb1b-88c4-48ff-8309-d6ba10d9fd29" style="display: block;">
+						<a href="javascript:toggleElement('exception-b002cb1b-88c4-48ff-8309-d6ba10d9fd29','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-b002cb1b-88c4-48ff-8309-d6ba10d9fd29">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.&lt;init&gt;(AndSet.java:67)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.andSet(AndSet.java:96)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andSetValueColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:232)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798360</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1917022f-bf1a-4357-b80f-2a0f8d9ef18b','block');changeSingleIcon('span-1917022f-bf1a-4357-b80f-2a0f8d9ef18b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1917022f-bf1a-4357-b80f-2a0f8d9ef18b' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798360</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>dropTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1917022f-bf1a-4357-b80f-2a0f8d9ef18b" style="display: block;">
+						<a href="javascript:toggleElement('exception-1917022f-bf1a-4357-b80f-2a0f8d9ef18b','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la Tabla proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-1917022f-bf1a-4357-b80f-2a0f8d9ef18b">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.DropTableIfExist.&lt;init&gt;(DropTableIfExist.java:30)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.dropTableIfExist(JBSqlUtils.java:266)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.dropTableJBSqlUtils(JBSqlUtilsTestSadDay.java:89)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798374</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('756d69a2-2668-44ff-9378-a3f0bfb0641c','block');changeSingleIcon('span-756d69a2-2668-44ff-9378-a3f0bfb0641c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-756d69a2-2668-44ff-9378-a3f0bfb0641c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798374</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>creteTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.000s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="756d69a2-2668-44ff-9378-a3f0bfb0641c" style="display: block;">
+						<a href="javascript:toggleElement('exception-756d69a2-2668-44ff-9378-a3f0bfb0641c','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la Tabla proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-756d69a2-2668-44ff-9378-a3f0bfb0641c">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.CreateTable.&lt;init&gt;(CreateTable.java:28)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.createTable(JBSqlUtils.java:251)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.creteTableJBSqlUtils(JBSqlUtilsTestSadDay.java:119)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798500</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('00733cde-b9bc-4a5f-8f43-f8a4c964295c','block');changeSingleIcon('span-00733cde-b9bc-4a5f-8f43-f8a4c964295c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-00733cde-b9bc-4a5f-8f43-f8a4c964295c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798500</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>orOperatorJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="00733cde-b9bc-4a5f-8f43-f8a4c964295c" style="display: block;">
+						<a href="javascript:toggleElement('exception-00733cde-b9bc-4a5f-8f43-f8a4c964295c','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El operador proporcionado es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-00733cde-b9bc-4a5f-8f43-f8a4c964295c">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Or.&lt;init&gt;(Or.java:135)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.or(MethodsTake.java:92)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.orOperatorJBSqlUtils(JBSqlUtilsTestSadDay.java:316)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798461</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('038c3a65-5705-41d7-873f-b64d521ffbb2','block');changeSingleIcon('span-038c3a65-5705-41d7-873f-b64d521ffbb2');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-038c3a65-5705-41d7-873f-b64d521ffbb2' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798461</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andSetValueColumnValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="038c3a65-5705-41d7-873f-b64d521ffbb2" style="display: block;">
+						<a href="javascript:toggleElement('exception-038c3a65-5705-41d7-873f-b64d521ffbb2','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-038c3a65-5705-41d7-873f-b64d521ffbb2">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.&lt;init&gt;(AndSet.java:74)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndSet.andSet(AndSet.java:96)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andSetValueColumnValueJBSqlUtils(JBSqlUtilsTestSadDay.java:241)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798448</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('845c15f5-fc9a-48ba-86ce-9317c9aa7db7','block');changeSingleIcon('span-845c15f5-fc9a-48ba-86ce-9317c9aa7db7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-845c15f5-fc9a-48ba-86ce-9317c9aa7db7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798448</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>setValueColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="845c15f5-fc9a-48ba-86ce-9317c9aa7db7" style="display: block;">
+						<a href="javascript:toggleElement('exception-845c15f5-fc9a-48ba-86ce-9317c9aa7db7','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-845c15f5-fc9a-48ba-86ce-9317c9aa7db7">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Set.&lt;init&gt;(Set.java:53)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Update.set(Update.java:62)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.setValueColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:214)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798519</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('7a80dee9-dcfa-4f14-b74c-589ae5dfc38b','block');changeSingleIcon('span-7a80dee9-dcfa-4f14-b74c-589ae5dfc38b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-7a80dee9-dcfa-4f14-b74c-589ae5dfc38b' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798519</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>openParentecisValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="7a80dee9-dcfa-4f14-b74c-589ae5dfc38b" style="display: block;">
+						<a href="javascript:toggleElement('exception-7a80dee9-dcfa-4f14-b74c-589ae5dfc38b','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-7a80dee9-dcfa-4f14-b74c-589ae5dfc38b">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.openParentecis.&lt;init&gt;(openParentecis.java:121)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.openParentecis(MethodsTake.java:123)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.openParentecisValueJBSqlUtils(JBSqlUtilsTestSadDay.java:353)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798445</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8bb1a0e3-a916-4d61-a8a4-93a1232acc80','block');changeSingleIcon('span-8bb1a0e3-a916-4d61-a8a4-93a1232acc80');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8bb1a0e3-a916-4d61-a8a4-93a1232acc80' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798445</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andValueColumnValueJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8bb1a0e3-a916-4d61-a8a4-93a1232acc80" style="display: block;">
+						<a href="javascript:toggleElement('exception-8bb1a0e3-a916-4d61-a8a4-93a1232acc80','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El valor proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-8bb1a0e3-a916-4d61-a8a4-93a1232acc80">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndValue.&lt;init&gt;(AndValue.java:57)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.AndValue.andValue(AndValue.java:76)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andValueColumnValueJBSqlUtils(JBSqlUtilsTestSadDay.java:205)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798488</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('891f1e44-4255-4142-970a-62c867de155a','block');changeSingleIcon('span-891f1e44-4255-4142-970a-62c867de155a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-891f1e44-4255-4142-970a-62c867de155a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798488</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>andColumnNameJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="891f1e44-4255-4142-970a-62c867de155a" style="display: block;">
+						<a href="javascript:toggleElement('exception-891f1e44-4255-4142-970a-62c867de155a','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la columna proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-891f1e44-4255-4142-970a-62c867de155a">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.And.&lt;init&gt;(And.java:128)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsTake.and(MethodsTake.java:66)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.andColumnNameJBSqlUtils(JBSqlUtilsTestSadDay.java:279)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798353</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b3149fc3-e2d3-460a-8859-a3652262cbb3','block');changeSingleIcon('span-b3149fc3-e2d3-460a-8859-a3652262cbb3');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-b3149fc3-e2d3-460a-8859-a3652262cbb3' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798353</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>setPropertiesConexion</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.005s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b3149fc3-e2d3-460a-8859-a3652262cbb3" style="display: block;">
+												<p><font size="2">Seteara las propiedades de conexión Globales para SQLite</font></p><br>
+												<p><font size="2">Ha seteado las propiedades de conexión globales para SQLite</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1694363798383</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0f7e87c1-85b2-4134-b700-cc7b1508ecfa','block');changeSingleIcon('span-0f7e87c1-85b2-4134-b700-cc7b1508ecfa');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0f7e87c1-85b2-4134-b700-cc7b1508ecfa' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1694363798383</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>selectTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.007s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0f7e87c1-85b2-4134-b700-cc7b1508ecfa" style="display: block;">
+						<a href="javascript:toggleElement('exception-0f7e87c1-85b2-4134-b700-cc7b1508ecfa','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ValorUndefined: El nombre de la Tabla proporcionado esta vacío o es NULL</b></a><br/>
+		<div class="stackTrace" id="exception-0f7e87c1-85b2-4134-b700-cc7b1508ecfa">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Select.&lt;init&gt;(Select.java:39)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.JBSqlUtils.select(JBSqlUtils.java:293)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSadDay.selectTableJBSqlUtils(JBSqlUtilsTestSadDay.java:139)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:848)<br/>
+					org.testng.TestRunner.run(TestRunner.java:621)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:336)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1114)<br/>
+					org.testng.TestNG.run(TestNG.java:1082)<br/>
+					org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)<br/>
+					org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)<br/>
+					org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)<br/>
+					org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>
