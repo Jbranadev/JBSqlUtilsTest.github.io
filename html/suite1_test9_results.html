@@ -74,12 +74,12 @@
 	  	  <tr>
 	    <th>Total Time : </th>
 	    <th></th>
-	    <th>00:00:02</th> 
+	    <th>00:00:03</th> 
 	  </tr>
 	  <tr>
 	    <th>Total Steps : </th>
 	   	<th></th>
-	    <th>36</th> 
+	    <th>37</th> 
 	  </tr>
 	  <tr>
 	    <th>Status : </th>
@@ -112,26 +112,864 @@
 				
 				
 												<tr>
-			<td class="time">1695358715893</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('8a677340-eb9f-46ea-b68e-979f620d767b','block');changeSingleIcon('span-8a677340-eb9f-46ea-b68e-979f620d767b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1696724286024</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('02e43880-e838-450b-86ab-f41639d75b66','block');changeSingleIcon('span-02e43880-e838-450b-86ab-f41639d75b66');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8a677340-eb9f-46ea-b68e-979f620d767b' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-02e43880-e838-450b-86ab-f41639d75b66' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1695358715893</td>
+	<td class="time">1696724286024</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>getModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.021s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="02e43880-e838-450b-86ab-f41639d75b66" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su apellido sea Cabrerassss, el cual no existe</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=true, size=))</font></p><br>
+												<p><font size="2">Obtenemos un modelo cuyo nombre sea Modelo # y sea mayor de edad</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=true, size=))</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285491</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('f2d37230-3c11-4f4f-927f-a74b29b3a99a','block');changeSingleIcon('span-f2d37230-3c11-4f4f-927f-a74b29b3a99a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f2d37230-3c11-4f4f-927f-a74b29b3a99a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285491</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>deleteModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.040s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="f2d37230-3c11-4f4f-927f-a74b29b3a99a" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el modelo que tiene por nombre MarcosEfrain, Apellido Cabrera y es Mayor de Edad</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=MarcosEfrain, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Eliminamos el modelo a través del metodo delete</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285316</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('f1cba363-96ab-4c36-947c-6b7e5d6b0281','block');changeSingleIcon('span-f1cba363-96ab-4c36-947c-6b7e5d6b0281');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f1cba363-96ab-4c36-947c-6b7e5d6b0281' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285316</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>createTable</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.021s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="f1cba363-96ab-4c36-947c-6b7e5d6b0281" style="display: block;">
+												<p><font size="2">Se creara la tabla testModel en BD's</font></p><br>
+												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287017</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5d445452-9c02-4a65-b612-ff6f5a82238f','block');changeSingleIcon('span-5d445452-9c02-4a65-b612-ff6f5a82238f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5d445452-9c02-4a65-b612-ff6f5a82238f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287017</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>insertModelUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.021s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5d445452-9c02-4a65-b612-ff6f5a82238f" style="display: block;">
+												<p><font size="2">Insertaremos un modelo cuyo nombre será Marcos, Apellido Cabrera y sera menor de edad</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@123a21ad</font></p><br>
+												<p><font size="2">Insertamos el Modelo a través del método save</font></p><br>
+												<p><font size="2">Filas insertadas en BD's: 1 UtilidadesTest.UsuarioModel@123a21ad</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286814</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('54e03c05-bfdb-4646-8473-1a18cda54aab','block');changeSingleIcon('span-54e03c05-bfdb-4646-8473-1a18cda54aab');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-54e03c05-bfdb-4646-8473-1a18cda54aab' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286814</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>dropTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.068s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="54e03c05-bfdb-4646-8473-1a18cda54aab" style="display: block;">
+												<p><font size="2">Eliminara la tabla Proveedor de BD's</font></p><br>
+												<p><font size="2">Resultado de solicitar eliminar la tabla en BD's: true</font></p><br>
+												<p><font size="2">Solicitara eliminar la tabla de BD's cuando esta ya no existe</font></p><br>
+												<p><font size="2">Resultado de solicitar la eliminar la tabla cuando no existe en BD's: false</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287851</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d1308a20-98f1-4e53-a1e3-dd9d1ebbdbef','block');changeSingleIcon('span-d1308a20-98f1-4e53-a1e3-dd9d1ebbdbef');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d1308a20-98f1-4e53-a1e3-dd9d1ebbdbef' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287851</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>firstModelUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.069s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d1308a20-98f1-4e53-a1e3-dd9d1ebbdbef" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su Correo sea Cabrerassss, el cual no existe</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@73624529</font></p><br>
+												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Modelo# y sea mayor de edad</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@30ae3c46</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286119</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('adf6e346-044b-4c25-ab47-9333364543e3','block');changeSingleIcon('span-adf6e346-044b-4c25-ab47-9333364543e3');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-adf6e346-044b-4c25-ab47-9333364543e3' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286119</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>getAllModels</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.027s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="adf6e346-044b-4c25-ab47-9333364543e3" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo #5 U #8 o su apellido es #3</font></p><br>
+												<p><font size="2">Se recuperaron 3 los cuales son: [TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))]</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287272</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('bdf4faef-812a-4f9d-a9cd-b8f423d85fd6','block');changeSingleIcon('span-bdf4faef-812a-4f9d-a9cd-b8f423d85fd6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-bdf4faef-812a-4f9d-a9cd-b8f423d85fd6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287272</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>insertModelsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.554s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="bdf4faef-812a-4f9d-a9cd-b8f423d85fd6" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Preparamos los modelos a insertar: </font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@39329d81</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@63574d76</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@586a9fe1</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@dcf64d2</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@20bc3e7f</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@7959fbe3</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@75c0e6be</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@3dfe520</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@42516ce2</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@74e111a8</font></p><br>
+												<p><font size="2">Enviamos a guardar los modelos</font></p><br>
+												<p><font size="2">Filas insertadas en BD's: 10</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286046</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('7b4fef9f-ca83-4298-a71c-90e2cab96c80','block');changeSingleIcon('span-7b4fef9f-ca83-4298-a71c-90e2cab96c80');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-7b4fef9f-ca83-4298-a71c-90e2cab96c80' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286046</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>firstModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.034s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="7b4fef9f-ca83-4298-a71c-90e2cab96c80" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su apellido sea Cabrerassss, el cual no existe</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Modelo # y sea mayor de edad</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285248</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('f0eec0b1-e727-48a5-bdf3-ed2b39f84a9c','block');changeSingleIcon('span-f0eec0b1-e727-48a5-bdf3-ed2b39f84a9c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f0eec0b1-e727-48a5-bdf3-ed2b39f84a9c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285248</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>setPropertiesConexiontoModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.007s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="f0eec0b1-e727-48a5-bdf3-ed2b39f84a9c" style="display: block;">
+												<p><font size="2">Se setearan las propiedades de conexión del modelo para SQLite</font></p><br>
+												<p><font size="2">Obtendra la conexión del modelo a BD's</font></p><br>
+												<p><font size="2">Obtuvo la conexión del modelo a BD's</font></p><br>
+												<p><font size="2">Se setearon las propiedades de conexión del modelo para SQLite</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287828</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9c70cc47-93cb-42cd-8a7e-2c528fe81e7f','block');changeSingleIcon('span-9c70cc47-93cb-42cd-8a7e-2c528fe81e7f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9c70cc47-93cb-42cd-8a7e-2c528fe81e7f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287828</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>getModelUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.021s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="9c70cc47-93cb-42cd-8a7e-2c528fe81e7f" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su apellido sea Cabrerassss, el cual no existe</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@123a21ad</font></p><br>
+												<p><font size="2">Obtenemos un modelo cuyo nombre sea Modelo # y sea mayor de edad</font></p><br>
+												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@123a21ad</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724288050</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('160eea0e-4e8c-4f9e-bb84-3f5bf648a7e6','block');changeSingleIcon('span-160eea0e-4e8c-4f9e-bb84-3f5bf648a7e6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-160eea0e-4e8c-4f9e-bb84-3f5bf648a7e6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724288050</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>getAllModelsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.054s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="160eea0e-4e8c-4f9e-bb84-3f5bf648a7e6" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo#5 U #8 o su Correo es #3</font></p><br>
+												<p><font size="2">Se recuperaron 2 los cuales son: [UtilidadesTest.UsuarioModel@470fc16c, UtilidadesTest.UsuarioModel@6d0cc47d]</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285380</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1c7a3902-0a49-45e1-8805-5e600e24495e','block');changeSingleIcon('span-1c7a3902-0a49-45e1-8805-5e600e24495e');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1c7a3902-0a49-45e1-8805-5e600e24495e' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285380</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reloadModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.046s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1c7a3902-0a49-45e1-8805-5e600e24495e" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el modelo que tiene por nombre Marcos, Apellido Cabrera</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Actualizamos el nombre del modelo a MarcosEfrain y asígnamos que será mayor de edad</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=MarcosEfrain, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Refrescamos el Modelo a traves del metodo reloadModel</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Actualizamos el nombre del modelo a Jose, Apellido a Bran y asígnamos que será mayor de edad</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Jose, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Bran, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Refrescamos el Modelo a traves del metodo reloadModel</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724288105</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('bc2fb57e-5c81-41c0-a64e-ef4c005d7b44','block');changeSingleIcon('span-bc2fb57e-5c81-41c0-a64e-ef4c005d7b44');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-bc2fb57e-5c81-41c0-a64e-ef4c005d7b44' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724288105</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>updateModelsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.780s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="bc2fb57e-5c81-41c0-a64e-ef4c005d7b44" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos los modelos a actualizar: </font></p><br>
+												<p><font size="2">Operamos los cambios a realizar en los modelos obtenidos de BD's</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@6e43c01f</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@6e43c01f</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@6567de86</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@6567de86</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@5350a926</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@5350a926</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@77732366</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@77732366</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@7c046af</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@7c046af</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@5c883b3f</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@5c883b3f</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@a47a011</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@a47a011</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@6441da2c</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@6441da2c</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@61b11d35</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@61b11d35</font></p><br>
+												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@7c7d83ff</font></p><br>
+												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@7c7d83ff</font></p><br>
+												<p><font size="2">Enviamos a guardar los modelos a través del método saveALL</font></p><br>
+												<p><font size="2">Filas actualizadas en BD's: 10</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285430</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('89618dff-b4bb-4950-ba58-3abe540404ae','block');changeSingleIcon('span-89618dff-b4bb-4950-ba58-3abe540404ae');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-89618dff-b4bb-4950-ba58-3abe540404ae' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285430</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>updateModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.057s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="89618dff-b4bb-4950-ba58-3abe540404ae" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el modelo que tiene por nombre Marcos, Apellido Cabrera</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Actualizamos el nombre del modelo a MarcosEfrain y asígnamos que será mayor de edad</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=MarcosEfrain, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Guardamos el modelo en BD's</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286764</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('010dcb6f-af0f-43c7-8090-11c18112ff97','block');changeSingleIcon('span-010dcb6f-af0f-43c7-8090-11c18112ff97');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-010dcb6f-af0f-43c7-8090-11c18112ff97' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286764</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>deleteJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.047s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="010dcb6f-af0f-43c7-8090-11c18112ff97" style="display: block;">
+												<p><font size="2">Obtenedra todos los registros que tienen estado True y en su apellido tienen una letra a</font></p><br>
+												<p><font size="2">VIsualizamos la Fila a eliminar, cuyo Id es igual a 5: </font></p><br>
+												<p><font size="2">{"Apellido":"Garcia","Id":5,"Name":"Alex","Estado":true}</font></p><br>
+												<p><font size="2">Filas eliminadas en BD's: 1</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285354</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0e1d4a3d-2337-448d-9c7c-4cd20426401c','block');changeSingleIcon('span-0e1d4a3d-2337-448d-9c7c-4cd20426401c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0e1d4a3d-2337-448d-9c7c-4cd20426401c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285354</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>cleanModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.008s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0e1d4a3d-2337-448d-9c7c-4cd20426401c" style="display: block;">
+												<p><font size="2">Limpiaremos el Modelo: TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
+												<p><font size="2">Modelo despues de realizar la limpieza: TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=true, size=))</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286147</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1c74d090-d8f1-47fa-a52e-b1591bfcf29e','block');changeSingleIcon('span-1c74d090-d8f1-47fa-a52e-b1591bfcf29e');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1c74d090-d8f1-47fa-a52e-b1591bfcf29e' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286147</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>updateModels</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.246s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1c74d090-d8f1-47fa-a52e-b1591bfcf29e" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos los modelos a actualizar: </font></p><br>
+												<p><font size="2">Operamos los cambios a realizar en los modelos obtenidos de BD's</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=3, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=3, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=5, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=5, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=7, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #6, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #6, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=7, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #6, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #6, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=8, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #7, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #7, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=8, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #7, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #7, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=10, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #9, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #9, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=10, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #9, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #9, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Enviamos a guardar los modelos a través del método saveALL</font></p><br>
+												<p><font size="2">Filas actualizadas en BD's: 10</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285256</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('48b4a51b-9c57-4ce8-9685-13211d8791ca','block');changeSingleIcon('span-48b4a51b-9c57-4ce8-9685-13211d8791ca');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-48b4a51b-9c57-4ce8-9685-13211d8791ca' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285256</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>refreshModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.015s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="48b4a51b-9c57-4ce8-9685-13211d8791ca" style="display: block;">
+												<p><font size="2">Se refrescará el modelo con la información existente en BD's</font></p><br>
+												<p><font size="2">Se refresco el modelo con la información existente en BD's</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286523</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('e2ff4e95-d675-4ee0-84de-ee14c7d5ae8b','block');changeSingleIcon('span-e2ff4e95-d675-4ee0-84de-ee14c7d5ae8b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-e2ff4e95-d675-4ee0-84de-ee14c7d5ae8b' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286523</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>creteTableJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.059s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="e2ff4e95-d675-4ee0-84de-ee14c7d5ae8b" style="display: block;">
+												<p><font size="2">Eliminara la tabla Proveedor de BD's en caso de que exista</font></p><br>
+												<p><font size="2">Resultado de solicitar eliminar la tabla en BD's: false</font></p><br>
+												<p><font size="2">Se solicitara la creación de la tabla Proveedor, la cual tendra las siguientes columnas, Id, Name, Apellido y Estado</font></p><br>
+												<p><font size="2">Resultado de solicitar la creación de la tabla en BD's: true</font></p><br>
+												<p><font size="2">Solicitara la creación de la tabla Proveedor cuando esta ya existe en BD's</font></p><br>
+												<p><font size="2">Resultado de solicitar la creación de la tabla en BD's: false</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724289074</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8e78d2e9-f8d8-4d55-9c4a-9b9dcca3a1ec','block');changeSingleIcon('span-8e78d2e9-f8d8-4d55-9c4a-9b9dcca3a1ec');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8e78d2e9-f8d8-4d55-9c4a-9b9dcca3a1ec' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724289074</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>getInJsonObjectsJBSqlUtilsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.050s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8e78d2e9-f8d8-4d55-9c4a-9b9dcca3a1ec" style="display: block;">
+												<p><font size="2">Obtendra los primeros 2 registros cuyo estado sea true y en su apellido posea la letra a</font></p><br>
+												<p><font size="2">Visualizamos los registros obtenidos de BD's: </font></p><br>
+												<p><font size="2">{"Correo":"CorreoPrueba#0","Nombre":"NombreModelo#0","Updated_at":"2023-10-07 18:18:08.375","Id_Usuario":1,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":0,"CUI":"3214764330502","Telefono":"50834811","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
+												<p><font size="2">{"Nombre":"NombreModelo#1","Updated_at":"2023-10-07 18:18:08.423","Id_Usuario":2,"Usuario":"Daniel","Id_Subestación":1,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#1","Id_Rol":1.5,"CUI":"3214764330502","Telefono":"50834811","Token_Actual":"Token","Created_at":"2023-10-07 18:18:07.395"}</font></p><br>
+												<p><font size="2">{"Correo":"CorreoPrueba#2","Nombre":"NombreModelo#2","Updated_at":"2023-10-07 18:18:08.462","Id_Usuario":3,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":2,"CUI":"3214764330502","Telefono":"50834811","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
+												<p><font size="2">{"Nombre":"NombreModelo#3","Updated_at":"2023-10-07 18:18:08.501","Id_Usuario":4,"Usuario":"Daniel","Id_Subestación":3,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#3","Id_Rol":1.5,"CUI":"3214764330502","Telefono":"50834811","Token_Actual":"Token","Created_at":"2023-10-07 18:18:07.484"}</font></p><br>
+												<p><font size="2">{"Correo":"CorreoPrueba#4","Nombre":"NombreModelo#4","Updated_at":"2023-10-07 18:18:08.54","Id_Usuario":5,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":4,"CUI":"3214764330502","Telefono":"50834811","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
+												<p><font size="2">{"Correo":"CorreoPrueba#6","Nombre":"NombreModelo#6","Updated_at":"2023-10-07 18:18:08.689","Id_Usuario":7,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":6,"CUI":"3214764330502","Telefono":"50834811","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
+												<p><font size="2">{"Nombre":"NombreModelo#7","Updated_at":"2023-10-07 18:18:08.747","Id_Usuario":8,"Usuario":"Daniel","Id_Subestación":7,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#7","Id_Rol":1.5,"CUI":"3214764330502","Telefono":"50834811","Token_Actual":"Token","Created_at":"2023-10-07 18:18:07.694"}</font></p><br>
+												<p><font size="2">{"Nombre":"NombreModelo#9","Updated_at":"2023-10-07 18:18:08.868","Id_Usuario":10,"Usuario":"Daniel","Id_Subestación":9,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#9","Id_Rol":1.5,"CUI":"3214764330502","Telefono":"50834811","Token_Actual":"Token","Created_at":"2023-10-07 18:18:07.787"}</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286981</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('69c517e8-4cbf-4a21-8454-ac2296a7c973','block');changeSingleIcon('span-69c517e8-4cbf-4a21-8454-ac2296a7c973');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-69c517e8-4cbf-4a21-8454-ac2296a7c973' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286981</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>createTableUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.035s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="69c517e8-4cbf-4a21-8454-ac2296a7c973" style="display: block;">
+												<p><font size="2">Se creara la tabla UsuarioTableTest en BD's</font></p><br>
+												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286883</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('874d55e9-72d0-4d74-a091-29b4f3c1d863','block');changeSingleIcon('span-874d55e9-72d0-4d74-a091-29b4f3c1d863');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-874d55e9-72d0-4d74-a091-29b4f3c1d863' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286883</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>dropTableIfExistsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.096s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="874d55e9-72d0-4d74-a091-29b4f3c1d863" style="display: block;">
+												<p><font size="2">Se creara la tabla UsuarioTableTest en BD's</font></p><br>
+												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
+												<p><font size="2">Se procedera a eliminar la tabla en BD's</font></p><br>
+												<p><font size="2">La tabla a sido eliminada en BD's</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286731</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('457a605d-576f-4891-b6ca-9ee39c14f8b8','block');changeSingleIcon('span-457a605d-576f-4891-b6ca-9ee39c14f8b8');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-457a605d-576f-4891-b6ca-9ee39c14f8b8' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286731</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>updateJBSqlUtils</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.032s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="457a605d-576f-4891-b6ca-9ee39c14f8b8" style="display: block;">
+												<p><font size="2">Obtendra los primeros 2 registros cuyo estado sea true y en su apellido posea la letra a</font></p><br>
+												<p><font size="2">Actualizara la fila que corresponde a Ligia Camey: </font></p><br>
+												<p><font size="2">{"Apellido":"Camey","Id":3,"Name":"Ligia","Estado":true}</font></p><br>
+												<p><font size="2">Filas actualizadas en BD's: 1</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724288886</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('3f4edb9f-3f5c-4bb9-b892-3e868230df82','block');changeSingleIcon('span-3f4edb9f-3f5c-4bb9-b892-3e868230df82');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-3f4edb9f-3f5c-4bb9-b892-3e868230df82' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724288886</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>deleteModelsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.185s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="3f4edb9f-3f5c-4bb9-b892-3e868230df82" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo#5 U #8 o su Correo es #3</font></p><br>
+												<p><font size="2">Se recuperaron 2 Para eliminar: [UtilidadesTest.UsuarioModel@77eb0e47, UtilidadesTest.UsuarioModel@3a034950]</font></p><br>
+												<p><font size="2">Filas eliminadas en BD's: 2 [UtilidadesTest.UsuarioModel@77eb0e47, UtilidadesTest.UsuarioModel@3a034950]</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286521</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('eb6642de-72c8-429f-989c-bf4f82e2df0d','block');changeSingleIcon('span-eb6642de-72c8-429f-989c-bf4f82e2df0d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-eb6642de-72c8-429f-989c-bf4f82e2df0d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286521</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>setPropertiesConexion</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.001s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="eb6642de-72c8-429f-989c-bf4f82e2df0d" style="display: block;">
+												<p><font size="2">Seteara las propiedades de conexión Globales para SQLite</font></p><br>
+												<p><font size="2">Ha seteado las propiedades de conexión globales para SQLite</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286394</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('12269ed2-d42d-42d5-ae8a-a94db0f289f9','block');changeSingleIcon('span-12269ed2-d42d-42d5-ae8a-a94db0f289f9');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-12269ed2-d42d-42d5-ae8a-a94db0f289f9' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286394</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>deleteModels</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.126s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="12269ed2-d42d-42d5-ae8a-a94db0f289f9" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo #5 U #8 o su apellido es #3</font></p><br>
+												<p><font size="2">Se recuperaron 3 Para eliminar: [TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))]</font></p><br>
+												<p><font size="2">Filas eliminadas en BD's: 3 [TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=)), TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))]</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285338</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('3e9e2e85-7253-427f-8a20-cba3ab057fa8','block');changeSingleIcon('span-3e9e2e85-7253-427f-8a20-cba3ab057fa8');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-3e9e2e85-7253-427f-8a20-cba3ab057fa8' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285338</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>insertModel</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.015s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="3e9e2e85-7253-427f-8a20-cba3ab057fa8" style="display: block;">
+												<p><font size="2">Insertaremos un modelo cuyo nombre será Marcos, Apellido Cabrera y sera menor de edad</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
+												<p><font size="2">Insertamos el Modelo a través del método save</font></p><br>
+												<p><font size="2">Filas insertadas en BD's: 1 TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287039</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('c508a9d4-2029-4248-aca2-9afe87da9b1d','block');changeSingleIcon('span-c508a9d4-2029-4248-aca2-9afe87da9b1d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-c508a9d4-2029-4248-aca2-9afe87da9b1d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287039</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>updateModelUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.166s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="c508a9d4-2029-4248-aca2-9afe87da9b1d" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el modelo que tiene por nombre Marcos, Apellido Cabrera</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@30fffb53</font></p><br>
+												<p><font size="2">Actualizamos el nombre del modelo a MarcosEfrain y asígnamos que será mayor de edad</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@30fffb53</font></p><br>
+												<p><font size="2">Guardamos el modelo en BD's</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724286083</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('049f924a-e0bb-4db7-bd0e-27834274b278','block');changeSingleIcon('span-049f924a-e0bb-4db7-bd0e-27834274b278');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-049f924a-e0bb-4db7-bd0e-27834274b278' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724286083</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>takeModels</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.035s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="049f924a-e0bb-4db7-bd0e-27834274b278" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Recuperamos los primeros seis modelos que en su nombre poseen el texto Modelo #</font></p><br>
+												<p><font size="2">Se recuperaron 6 los cuales son: [TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=3, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=5, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))]</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285534</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('cc71478a-7bbe-4057-807b-864bb35639de','block');changeSingleIcon('span-cc71478a-7bbe-4057-807b-864bb35639de');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-cc71478a-7bbe-4057-807b-864bb35639de' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285534</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>insertModels</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.489s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="cc71478a-7bbe-4057-807b-864bb35639de" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Preparamos los modelos a insertar: </font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #6, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #6, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #7, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #7, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #9, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #9, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
+												<p><font size="2">Enviamos a guardar los modelos</font></p><br>
+												<p><font size="2">Filas insertadas en BD's: 10</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287207</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4f35c78d-1126-4a11-8572-1fd0d3c7a707','block');changeSingleIcon('span-4f35c78d-1126-4a11-8572-1fd0d3c7a707');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4f35c78d-1126-4a11-8572-1fd0d3c7a707' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287207</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>deleteModelUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.064s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="4f35c78d-1126-4a11-8572-1fd0d3c7a707" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Obtenemos el modelo que tiene por nombre MarcosEfrain, Apellido Cabrera y es Mayor de Edad</font></p><br>
+												<p><font size="2">UtilidadesTest.UsuarioModel@2b3e2039</font></p><br>
+												<p><font size="2">Eliminamos el modelo a través del metodo delete</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724287921</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('7ed6090c-2864-4c3b-affc-2e8873a5f0f2','block');changeSingleIcon('span-7ed6090c-2864-4c3b-affc-2e8873a5f0f2');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-7ed6090c-2864-4c3b-affc-2e8873a5f0f2' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724287921</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>takeModelsUsuario</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.128s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="7ed6090c-2864-4c3b-affc-2e8873a5f0f2" style="display: block;">
+												<p><font size="2">Limpiamos el modelo</font></p><br>
+												<p><font size="2">Recuperamos los primeros seis modelos que en su nombre poseen el texto Modelo#</font></p><br>
+												<p><font size="2">Se recuperaron 6 los cuales son: [UtilidadesTest.UsuarioModel@2f98859a, UtilidadesTest.UsuarioModel@6e95c023, UtilidadesTest.UsuarioModel@3582077c, UtilidadesTest.UsuarioModel@5d00241b, UtilidadesTest.UsuarioModel@365fde74, UtilidadesTest.UsuarioModel@760b9444]</font></p><br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1696724285363</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4b859abe-1171-4d7f-914a-83a1c856ee01','block');changeSingleIcon('span-4b859abe-1171-4d7f-914a-83a1c856ee01');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4b859abe-1171-4d7f-914a-83a1c856ee01' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1696724285363</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>firstOrFail</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.011s</span><br>
+							<span class="duration"><b>Duration: </b>0.015s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="8a677340-eb9f-46ea-b68e-979f620d767b" style="display: block;">
-						<a href="javascript:toggleElement('exception-8a677340-eb9f-46ea-b68e-979f620d767b','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ModelNotFound: No existe un modelo en BD&apos;s que corresponda a los criterios de la consulta sql: SELECT * FROM testModel WHERE&nbsp; (Name = ? ) AND&nbsp; (Apellido = ? )</b></a><br/>
-		<div class="stackTrace" id="exception-8a677340-eb9f-46ea-b68e-979f620d767b">
-					io.github.josecarlosbran.JBSqlUtils.DataBase.Get.firstOrFail(Get.java:256)<br/>
-					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsOrderBy.firstOrFail(MethodsOrderBy.java:174)<br/>
-					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite.firstOrFail(JBSqlUtilsTestSQLite.java:135)<br/>
+						<div class="stackTrace" id="4b859abe-1171-4d7f-914a-83a1c856ee01" style="display: block;">
+						<a href="javascript:toggleElement('exception-4b859abe-1171-4d7f-914a-83a1c856ee01','block')" title="Click to expand/collapse"><b>io.github.josecarlosbran.JBSqlUtils.Exceptions.ModelNotFound: No existe un modelo en BD&apos;s que corresponda a los criterios de la consulta sql: SELECT * FROM testModel WHERE&nbsp; (Name = ? ) AND&nbsp; (Apellido = ? )</b></a><br/>
+		<div class="stackTrace" id="exception-4b859abe-1171-4d7f-914a-83a1c856ee01">
+					io.github.josecarlosbran.JBSqlUtils.DataBase.Get.firstOrFail(Get.java:245)<br/>
+					io.github.josecarlosbran.JBSqlUtils.DataBase.MethodsOrderBy.firstOrFail(MethodsOrderBy.java:143)<br/>
+					io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite.firstOrFail(JBSqlUtilsTestSQLite.java:136)<br/>
 					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br/>
 					java.base/java.lang.reflect.Method.invoke(Method.java:577)<br/>
 					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br/>
@@ -167,137 +1005,44 @@
 	</div>
 </tr>
 						<tr>
-			<td class="time">1695358716962</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('ff23ec7c-93c4-472d-b4d8-0c27b7068b51','block');changeSingleIcon('span-ff23ec7c-93c4-472d-b4d8-0c27b7068b51');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1696724286704</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('706cb876-a60c-47cd-a096-9187d4a1abdc','block');changeSingleIcon('span-706cb876-a60c-47cd-a096-9187d4a1abdc');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-ff23ec7c-93c4-472d-b4d8-0c27b7068b51' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-706cb876-a60c-47cd-a096-9187d4a1abdc' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1695358716962</td>
+	<td class="time">1696724286704</td>
 	<td class="methodTest">
-		<span class="description"><b>Method: </b>dropTableJBSqlUtils</span><br>
+		<span class="description"><b>Method: </b>getInJsonObjectsJBSqlUtils</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.030s</span><br>
+							<span class="duration"><b>Duration: </b>0.026s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="ff23ec7c-93c4-472d-b4d8-0c27b7068b51" style="display: block;">
-												<p><font size="2">Eliminara la tabla Proveedor de BD's</font></p><br>
-												<p><font size="2">Resultado de solicitar eliminar la tabla en BD's: true</font></p><br>
-												<p><font size="2">Solicitara eliminar la tabla de BD's cuando esta ya no existe</font></p><br>
-												<p><font size="2">Resultado de solicitar la eliminar la tabla cuando no existe en BD's: false</font></p><br>
+						<div class="stackTrace" id="706cb876-a60c-47cd-a096-9187d4a1abdc" style="display: block;">
+												<p><font size="2">Obtendra los primeros 2 registros cuyo estado sea true y en su apellido posea la letra a</font></p><br>
+												<p><font size="2">Visualizamos los registros obtenidos de BD's: </font></p><br>
+												<p><font size="2">{"Id":1,"Name":"Erick"}</font></p><br>
+												<p><font size="2">{"Id":3,"Name":"Ligia"}</font></p><br>
 								</td>
 	</div>
 </tr>
 						<tr>
-			<td class="time">1695358717619</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('c3e023e5-9cc0-4f7d-b7b4-2c626fdc5aff','block');changeSingleIcon('span-c3e023e5-9cc0-4f7d-b7b4-2c626fdc5aff');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1696724286584</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9e3c581f-7f55-45a4-99ff-e48adda6eb85','block');changeSingleIcon('span-9e3c581f-7f55-45a4-99ff-e48adda6eb85');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-c3e023e5-9cc0-4f7d-b7b4-2c626fdc5aff' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9e3c581f-7f55-45a4-99ff-e48adda6eb85' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1695358717619</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>takeModelsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.106s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="c3e023e5-9cc0-4f7d-b7b4-2c626fdc5aff" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Recuperamos los primeros seis modelos que en su nombre poseen el texto Modelo#</font></p><br>
-												<p><font size="2">Se recuperaron 6 los cuales son: [UtilidadesTest.UsuarioModel@20bc3e7f, UtilidadesTest.UsuarioModel@7959fbe3, UtilidadesTest.UsuarioModel@75c0e6be, UtilidadesTest.UsuarioModel@3dfe520, UtilidadesTest.UsuarioModel@42516ce2, UtilidadesTest.UsuarioModel@74e111a8]</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715934</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('d05fee36-4cc0-425b-8025-cc35a8bb75af','block');changeSingleIcon('span-d05fee36-4cc0-425b-8025-cc35a8bb75af');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d05fee36-4cc0-425b-8025-cc35a8bb75af' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715934</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>deleteModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.028s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="d05fee36-4cc0-425b-8025-cc35a8bb75af" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el modelo que tiene por nombre MarcosEfrain, Apellido Cabrera y es Mayor de Edad</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=MarcosEfrain, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Eliminamos el modelo a través del metodo delete</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716683</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('34ea4e1d-7740-4242-b63a-1e8c405a1327','block');changeSingleIcon('span-34ea4e1d-7740-4242-b63a-1e8c405a1327');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-34ea4e1d-7740-4242-b63a-1e8c405a1327' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716683</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>creteTableJBSqlUtils</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.123s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="34ea4e1d-7740-4242-b63a-1e8c405a1327" style="display: block;">
-												<p><font size="2">Eliminara la tabla Proveedor de BD's en caso de que exista</font></p><br>
-												<p><font size="2">Resultado de solicitar eliminar la tabla en BD's: false</font></p><br>
-												<p><font size="2">Se solicitara la creación de la tabla Proveedor, la cual tendra las siguientes columnas, Id, Name, Apellido y Estado</font></p><br>
-												<p><font size="2">Resultado de solicitar la creación de la tabla en BD's: true</font></p><br>
-												<p><font size="2">Solicitara la creación de la tabla Proveedor cuando esta ya existe en BD's</font></p><br>
-												<p><font size="2">Resultado de solicitar la creación de la tabla en BD's: false</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717163</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('a302be42-d69e-47d1-9e64-b53f35660945','block');changeSingleIcon('span-a302be42-d69e-47d1-9e64-b53f35660945');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a302be42-d69e-47d1-9e64-b53f35660945' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717163</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>deleteModelUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.048s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="a302be42-d69e-47d1-9e64-b53f35660945" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el modelo que tiene por nombre MarcosEfrain, Apellido Cabrera y es Mayor de Edad</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@149fab7f</font></p><br>
-												<p><font size="2">Eliminamos el modelo a través del metodo delete</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716807</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('db354490-11e6-4f23-9474-a57039a78cb1','block');changeSingleIcon('span-db354490-11e6-4f23-9474-a57039a78cb1');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-db354490-11e6-4f23-9474-a57039a78cb1' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716807</td>
+	<td class="time">1696724286584</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>insertIntoJBSqlUtils</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.059s</span><br>
+							<span class="duration"><b>Duration: </b>0.118s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="db354490-11e6-4f23-9474-a57039a78cb1" style="display: block;">
+						<div class="stackTrace" id="9e3c581f-7f55-45a4-99ff-e48adda6eb85" style="display: block;">
 												<p><font size="2">Se insertaran 5 registros en la tabla Proveedor</font></p><br>
 												<p><font size="2">Resultado de insertar el registro de Erick en la tabla Proveedor: 1</font></p><br>
 												<p><font size="2">Resultado de insertar el registro de Daniel en la tabla Proveedor: 1</font></p><br>
@@ -308,740 +1053,25 @@
 	</div>
 </tr>
 						<tr>
-			<td class="time">1695358715887</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('637edc7a-bd67-4a9c-8fb9-e72792a57266','block');changeSingleIcon('span-637edc7a-bd67-4a9c-8fb9-e72792a57266');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1696724285272</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9291a8ca-8af1-4ce4-80be-3137bb0e617e','block');changeSingleIcon('span-9291a8ca-8af1-4ce4-80be-3137bb0e617e');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-637edc7a-bd67-4a9c-8fb9-e72792a57266' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9291a8ca-8af1-4ce4-80be-3137bb0e617e' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1695358715887</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>cleanModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.005s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="637edc7a-bd67-4a9c-8fb9-e72792a57266" style="display: block;">
-												<p><font size="2">Limpiaremos el Modelo: TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
-												<p><font size="2">Modelo despues de realizar la limpieza: TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=true, size=))</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717212</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('3acc9e2f-52ac-475f-aca7-ae498a28a6b1','block');changeSingleIcon('span-3acc9e2f-52ac-475f-aca7-ae498a28a6b1');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-3acc9e2f-52ac-475f-aca7-ae498a28a6b1' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717212</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>insertModelsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.315s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="3acc9e2f-52ac-475f-aca7-ae498a28a6b1" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Preparamos los modelos a insertar: </font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@5cbf9aee</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@35920655</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@27558dee</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@6108c962</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@41c05747</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@64455184</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@6f749a1f</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@48900d4a</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@ba90170</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@452ea8f0</font></p><br>
-												<p><font size="2">Enviamos a guardar los modelos</font></p><br>
-												<p><font size="2">Filas insertadas en BD's: 10</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715964</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('752a734b-fcc9-42e6-87bc-97751566495d','block');changeSingleIcon('span-752a734b-fcc9-42e6-87bc-97751566495d');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-752a734b-fcc9-42e6-87bc-97751566495d' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715964</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>insertModels</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.209s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="752a734b-fcc9-42e6-87bc-97751566495d" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Preparamos los modelos a insertar: </font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #6, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #6, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #7, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #7, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #9, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #9, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Enviamos a guardar los modelos</font></p><br>
-												<p><font size="2">Filas insertadas en BD's: 10</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717086</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('fc794725-df7e-4cb6-8727-63bbf442fabb','block');changeSingleIcon('span-fc794725-df7e-4cb6-8727-63bbf442fabb');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fc794725-df7e-4cb6-8727-63bbf442fabb' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717086</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateModelUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.076s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="fc794725-df7e-4cb6-8727-63bbf442fabb" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el modelo que tiene por nombre Marcos, Apellido Cabrera</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@6e5106fc</font></p><br>
-												<p><font size="2">Actualizamos el nombre del modelo a MarcosEfrain y asígnamos que será mayor de edad</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@6e5106fc</font></p><br>
-												<p><font size="2">Guardamos el modelo en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716680</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('19f2c1b5-82df-42a4-bede-8fdaafe2233b','block');changeSingleIcon('span-19f2c1b5-82df-42a4-bede-8fdaafe2233b');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-19f2c1b5-82df-42a4-bede-8fdaafe2233b' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716680</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>setPropertiesConexion</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.001s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="19f2c1b5-82df-42a4-bede-8fdaafe2233b" style="display: block;">
-												<p><font size="2">Seteara las propiedades de conexión Globales para SQLite</font></p><br>
-												<p><font size="2">Ha seteado las propiedades de conexión globales para SQLite</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358718227</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('fd417d7c-f5dd-471d-9bc9-8032eefade5f','block');changeSingleIcon('span-fd417d7c-f5dd-471d-9bc9-8032eefade5f');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fd417d7c-f5dd-471d-9bc9-8032eefade5f' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358718227</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>deleteModelsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.126s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="fd417d7c-f5dd-471d-9bc9-8032eefade5f" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo#5 U #8 o su Correo es #3</font></p><br>
-												<p><font size="2">Se recuperaron 2 Para eliminar: [UtilidadesTest.UsuarioModel@470fc16c, UtilidadesTest.UsuarioModel@6d0cc47d]</font></p><br>
-												<p><font size="2">Filas eliminadas en BD's: 2 [UtilidadesTest.UsuarioModel@470fc16c, UtilidadesTest.UsuarioModel@6d0cc47d]</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716899</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('fef871f8-c564-4220-b8d8-c1a7225fff62','block');changeSingleIcon('span-fef871f8-c564-4220-b8d8-c1a7225fff62');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fef871f8-c564-4220-b8d8-c1a7225fff62' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716899</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateJBSqlUtils</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.038s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="fef871f8-c564-4220-b8d8-c1a7225fff62" style="display: block;">
-												<p><font size="2">Obtendra los primeros 2 registros cuyo estado sea true y en su apellido posea la letra a</font></p><br>
-												<p><font size="2">Actualizara la fila que corresponde a Ligia Camey: </font></p><br>
-												<p><font size="2">{"Apellido":"Camey","Id":3,"Name":"Ligia","Estado":true}</font></p><br>
-												<p><font size="2">Filas actualizadas en BD's: 1</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715807</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('a2d8897d-3df2-493d-80c1-4fda0bc18857','block');changeSingleIcon('span-a2d8897d-3df2-493d-80c1-4fda0bc18857');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a2d8897d-3df2-493d-80c1-4fda0bc18857' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715807</td>
+	<td class="time">1696724285272</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>dropTableIfExists</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.039s</span><br>
+							<span class="duration"><b>Duration: </b>0.043s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="a2d8897d-3df2-493d-80c1-4fda0bc18857" style="display: block;">
+						<div class="stackTrace" id="9291a8ca-8af1-4ce4-80be-3137bb0e617e" style="display: block;">
 												<p><font size="2">Se creara la tabla testModel en BD's</font></p><br>
 												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
 												<p><font size="2">Se procedera a eliminar la tabla en BD's</font></p><br>
 												<p><font size="2">La tabla a sido eliminada en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716288</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('38bb202b-0aaf-4a64-ac91-33a8879bb236','block');changeSingleIcon('span-38bb202b-0aaf-4a64-ac91-33a8879bb236');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-38bb202b-0aaf-4a64-ac91-33a8879bb236' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716288</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateModels</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.258s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="38bb202b-0aaf-4a64-ac91-33a8879bb236" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos los modelos a actualizar: </font></p><br>
-												<p><font size="2">Operamos los cambios a realizar en los modelos obtenidos de BD's</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=3, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=3, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=5, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=5, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=7, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #6, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #6, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=7, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #6, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #6, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=8, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #7, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #7, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=8, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #7, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #7, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo obtenido: TestModel(id=Column(name=Id, valor=10, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #9, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #9, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Modelo a actualizar: TestModel(id=Column(name=Id, valor=10, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #9, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #9, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Enviamos a guardar los modelos a través del método saveALL</font></p><br>
-												<p><font size="2">Filas actualizadas en BD's: 10</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716221</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('61307967-c360-4041-94c4-97c33a93179a','block');changeSingleIcon('span-61307967-c360-4041-94c4-97c33a93179a');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-61307967-c360-4041-94c4-97c33a93179a' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716221</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>takeModels</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.035s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="61307967-c360-4041-94c4-97c33a93179a" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Recuperamos los primeros seis modelos que en su nombre poseen el texto Modelo #</font></p><br>
-												<p><font size="2">Se recuperaron 6 los cuales son: [TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #0, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #0, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=3, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #2, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #2, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=5, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #4, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #4, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))]</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715905</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('2169fd7a-c76b-4629-b3bf-9c4d7f25b0d1','block');changeSingleIcon('span-2169fd7a-c76b-4629-b3bf-9c4d7f25b0d1');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-2169fd7a-c76b-4629-b3bf-9c4d7f25b0d1' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715905</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.027s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="2169fd7a-c76b-4629-b3bf-9c4d7f25b0d1" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el modelo que tiene por nombre Marcos, Apellido Cabrera</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Actualizamos el nombre del modelo a MarcosEfrain y asígnamos que será mayor de edad</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=1, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=MarcosEfrain, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Guardamos el modelo en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358718354</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('8b50cf95-6337-4a8e-a236-c880acf3dcfa','block');changeSingleIcon('span-8b50cf95-6337-4a8e-a236-c880acf3dcfa');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8b50cf95-6337-4a8e-a236-c880acf3dcfa' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358718354</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getInJsonObjectsJBSqlUtilsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.027s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="8b50cf95-6337-4a8e-a236-c880acf3dcfa" style="display: block;">
-												<p><font size="2">Obtendra los primeros 2 registros cuyo estado sea true y en su apellido posea la letra a</font></p><br>
-												<p><font size="2">Visualizamos los registros obtenidos de BD's: </font></p><br>
-												<p><font size="2">{"Correo":"CorreoPrueba#0","Nombre":"NombreModelo#0","Updated_at":"2023-09-21 22:58:37.982","Id_Usuario":1,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":0,"Telefono":"50834811","CUI":"3214764330502","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
-												<p><font size="2">{"Nombre":"NombreModelo#1","Updated_at":"2023-09-21 22:58:38.006","Id_Usuario":2,"Usuario":"Daniel","Id_Subestación":1,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#1","Id_Rol":1.5,"Telefono":"50834811","CUI":"3214764330502","Token_Actual":"Token","Created_at":"2023-09-21 22:58:37.288"}</font></p><br>
-												<p><font size="2">{"Correo":"CorreoPrueba#2","Nombre":"NombreModelo#2","Updated_at":"2023-09-21 22:58:38.032","Id_Usuario":3,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":2,"Telefono":"50834811","CUI":"3214764330502","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
-												<p><font size="2">{"Nombre":"NombreModelo#3","Updated_at":"2023-09-21 22:58:38.056","Id_Usuario":4,"Usuario":"Daniel","Id_Subestación":3,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#3","Id_Rol":1.5,"Telefono":"50834811","CUI":"3214764330502","Token_Actual":"Token","Created_at":"2023-09-21 22:58:37.338"}</font></p><br>
-												<p><font size="2">{"Correo":"CorreoPrueba#4","Nombre":"NombreModelo#4","Updated_at":"2023-09-21 22:58:38.082","Id_Usuario":5,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":4,"Telefono":"50834811","CUI":"3214764330502","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
-												<p><font size="2">{"Correo":"CorreoPrueba#6","Nombre":"NombreModelo#6","Updated_at":"2023-09-21 22:58:38.138","Id_Usuario":7,"Usuario":"Daniel","Id_Rol":1.5,"Id_Subestación":6,"Telefono":"50834811","CUI":"3214764330502","Contraseña":"ContraseñaDefault","Token_Actual":"Token","Estado":true}</font></p><br>
-												<p><font size="2">{"Nombre":"NombreModelo#7","Updated_at":"2023-09-21 22:58:38.169","Id_Usuario":8,"Usuario":"Daniel","Id_Subestación":7,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#7","Id_Rol":1.5,"Telefono":"50834811","CUI":"3214764330502","Token_Actual":"Token","Created_at":"2023-09-21 22:58:37.442"}</font></p><br>
-												<p><font size="2">{"Nombre":"NombreModelo#9","Updated_at":"2023-09-21 22:58:38.221","Id_Usuario":10,"Usuario":"Daniel","Id_Subestación":9,"Contraseña":"ContraseñaDefault","Estado":false,"Correo":"CorreoPrueba#9","Id_Rol":1.5,"Telefono":"50834811","CUI":"3214764330502","Token_Actual":"Token","Created_at":"2023-09-21 22:58:37.508"}</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716867</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('196357ca-fad6-4fdd-acdf-70b06e9eb4e4','block');changeSingleIcon('span-196357ca-fad6-4fdd-acdf-70b06e9eb4e4');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-196357ca-fad6-4fdd-acdf-70b06e9eb4e4' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716867</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getInJsonObjectsJBSqlUtils</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.031s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="196357ca-fad6-4fdd-acdf-70b06e9eb4e4" style="display: block;">
-												<p><font size="2">Obtendra los primeros 2 registros cuyo estado sea true y en su apellido posea la letra a</font></p><br>
-												<p><font size="2">Visualizamos los registros obtenidos de BD's: </font></p><br>
-												<p><font size="2">{"Id":1,"Name":"Erick"}</font></p><br>
-												<p><font size="2">{"Id":3,"Name":"Ligia"}</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717071</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('be842a62-2b92-4663-9b26-5099dba27b7c','block');changeSingleIcon('span-be842a62-2b92-4663-9b26-5099dba27b7c');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-be842a62-2b92-4663-9b26-5099dba27b7c' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717071</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>insertModelUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.012s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="be842a62-2b92-4663-9b26-5099dba27b7c" style="display: block;">
-												<p><font size="2">Insertaremos un modelo cuyo nombre será Marcos, Apellido Cabrera y sera menor de edad</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@39d4f046</font></p><br>
-												<p><font size="2">Insertamos el Modelo a través del método save</font></p><br>
-												<p><font size="2">Filas insertadas en BD's: 1 UtilidadesTest.UsuarioModel@39d4f046</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717044</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('3bbab156-9894-4888-8900-f8aad3266374','block');changeSingleIcon('span-3bbab156-9894-4888-8900-f8aad3266374');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-3bbab156-9894-4888-8900-f8aad3266374' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717044</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>createTableUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.026s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="3bbab156-9894-4888-8900-f8aad3266374" style="display: block;">
-												<p><font size="2">Se creara la tabla UsuarioTableTest en BD's</font></p><br>
-												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716174</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('5b6f11c6-995c-4a75-b78b-c946e8e6bb0e','block');changeSingleIcon('span-5b6f11c6-995c-4a75-b78b-c946e8e6bb0e');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5b6f11c6-995c-4a75-b78b-c946e8e6bb0e' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716174</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.020s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="5b6f11c6-995c-4a75-b78b-c946e8e6bb0e" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su apellido sea Cabrerassss, el cual no existe</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=true, size=))</font></p><br>
-												<p><font size="2">Obtenemos un modelo cuyo nombre sea Modelo # y sea mayor de edad</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=true, size=))</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715778</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('1115f942-1c30-4f27-9bc7-29ed61e0b2c3','block');changeSingleIcon('span-1115f942-1c30-4f27-9bc7-29ed61e0b2c3');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1115f942-1c30-4f27-9bc7-29ed61e0b2c3' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715778</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>setPropertiesConexiontoModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.009s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="1115f942-1c30-4f27-9bc7-29ed61e0b2c3" style="display: block;">
-												<p><font size="2">Se setearan las propiedades de conexión del modelo para SQLite</font></p><br>
-												<p><font size="2">Obtendra la conexión del modelo a BD's</font></p><br>
-												<p><font size="2">Obtuvo la conexión del modelo a BD's</font></p><br>
-												<p><font size="2">Se setearon las propiedades de conexión del modelo para SQLite</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715788</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('c835282b-6833-4379-b0ed-445299f4abe0','block');changeSingleIcon('span-c835282b-6833-4379-b0ed-445299f4abe0');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-c835282b-6833-4379-b0ed-445299f4abe0' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715788</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>refreshModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.018s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="c835282b-6833-4379-b0ed-445299f4abe0" style="display: block;">
-												<p><font size="2">Se refrescará el modelo con la información existente en BD's</font></p><br>
-												<p><font size="2">Se refresco el modelo con la información existente en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717726</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('7f207568-650a-4b50-9f63-ae85fa1cc926','block');changeSingleIcon('span-7f207568-650a-4b50-9f63-ae85fa1cc926');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-7f207568-650a-4b50-9f63-ae85fa1cc926' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717726</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getAllModelsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.045s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="7f207568-650a-4b50-9f63-ae85fa1cc926" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo#5 U #8 o su Correo es #3</font></p><br>
-												<p><font size="2">Se recuperaron 2 los cuales son: [UtilidadesTest.UsuarioModel@3393aa46, UtilidadesTest.UsuarioModel@4f0381cd]</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717553</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('adeda0f3-aa12-4344-9309-083de0fec282','block');changeSingleIcon('span-adeda0f3-aa12-4344-9309-083de0fec282');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-adeda0f3-aa12-4344-9309-083de0fec282' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717553</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>firstModelUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.065s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="adeda0f3-aa12-4344-9309-083de0fec282" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su Correo sea Cabrerassss, el cual no existe</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@7ef570be</font></p><br>
-												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Modelo# y sea mayor de edad</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@63574d76</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717772</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('9b05d26d-f58f-4e32-b5e4-038850a2076a','block');changeSingleIcon('span-9b05d26d-f58f-4e32-b5e4-038850a2076a');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9b05d26d-f58f-4e32-b5e4-038850a2076a' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717772</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>updateModelsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.454s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="9b05d26d-f58f-4e32-b5e4-038850a2076a" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos los modelos a actualizar: </font></p><br>
-												<p><font size="2">Operamos los cambios a realizar en los modelos obtenidos de BD's</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@4dd28982</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@4dd28982</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@1e8c741c</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@1e8c741c</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@60f70c9e</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@60f70c9e</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@6db64abf</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@6db64abf</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@34714012</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@34714012</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@49a0fe14</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@49a0fe14</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@11eb8842</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@11eb8842</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@4ed7db72</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@4ed7db72</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@7018636a</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@7018636a</font></p><br>
-												<p><font size="2">Modelo obtenido: UtilidadesTest.UsuarioModel@3e866323</font></p><br>
-												<p><font size="2">Modelo a actualizar: UtilidadesTest.UsuarioModel@3e866323</font></p><br>
-												<p><font size="2">Enviamos a guardar los modelos a través del método saveALL</font></p><br>
-												<p><font size="2">Filas actualizadas en BD's: 10</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715872</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('81fdbb01-6ae5-4cb0-86fe-e073f366ab0b','block');changeSingleIcon('span-81fdbb01-6ae5-4cb0-86fe-e073f366ab0b');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-81fdbb01-6ae5-4cb0-86fe-e073f366ab0b' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715872</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>insertModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.013s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="81fdbb01-6ae5-4cb0-86fe-e073f366ab0b" style="display: block;">
-												<p><font size="2">Insertaremos un modelo cuyo nombre será Marcos, Apellido Cabrera y sera menor de edad</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
-												<p><font size="2">Insertamos el Modelo a través del método save</font></p><br>
-												<p><font size="2">Filas insertadas en BD's: 1 TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Marcos, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Cabrera, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=))</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716938</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('4a05d092-c351-4fb6-ba8b-e55fe95deef9','block');changeSingleIcon('span-4a05d092-c351-4fb6-ba8b-e55fe95deef9');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4a05d092-c351-4fb6-ba8b-e55fe95deef9' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716938</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>deleteJBSqlUtils</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.022s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="4a05d092-c351-4fb6-ba8b-e55fe95deef9" style="display: block;">
-												<p><font size="2">Obtenedra todos los registros que tienen estado True y en su apellido tienen una letra a</font></p><br>
-												<p><font size="2">VIsualizamos la Fila a eliminar, cuyo Id es igual a 5: </font></p><br>
-												<p><font size="2">{"Apellido":"Garcia","Id":5,"Name":"Alex","Estado":true}</font></p><br>
-												<p><font size="2">Filas eliminadas en BD's: 1</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716194</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('282cb177-e4a1-43b2-8b8e-169f473d5d1c','block');changeSingleIcon('span-282cb177-e4a1-43b2-8b8e-169f473d5d1c');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-282cb177-e4a1-43b2-8b8e-169f473d5d1c' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716194</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>firstModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.026s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="282cb177-e4a1-43b2-8b8e-169f473d5d1c" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su apellido sea Cabrerassss, el cual no existe</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=null, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=null, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=null, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=null, default_value=true, columnExist=false, size=))</font></p><br>
-												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Modelo # y sea mayor de edad</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
-												<p><font size="2">TestModel(id=Column(name=Id, valor=2, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #1, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #1, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358717528</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('3d83b9da-0bca-43ae-93fe-bfba50ef4e8e','block');changeSingleIcon('span-3d83b9da-0bca-43ae-93fe-bfba50ef4e8e');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-3d83b9da-0bca-43ae-93fe-bfba50ef4e8e' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358717528</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getModelUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.025s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="3d83b9da-0bca-43ae-93fe-bfba50ef4e8e" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos el primero modelo cuyo nombre sea Marcossss y su apellido sea Cabrerassss, el cual no existe</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que no existe, el resultado es: false</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@39d4f046</font></p><br>
-												<p><font size="2">Obtenemos un modelo cuyo nombre sea Modelo # y sea mayor de edad</font></p><br>
-												<p><font size="2">Trato de obtener un modelo que sí existe, el resultado es: true</font></p><br>
-												<p><font size="2">UtilidadesTest.UsuarioModel@39d4f046</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716994</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('d832d7d3-e8f7-4de0-9706-ce9c7858b300','block');changeSingleIcon('span-d832d7d3-e8f7-4de0-9706-ce9c7858b300');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d832d7d3-e8f7-4de0-9706-ce9c7858b300' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716994</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>dropTableIfExistsUsuario</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.048s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="d832d7d3-e8f7-4de0-9706-ce9c7858b300" style="display: block;">
-												<p><font size="2">Se creara la tabla UsuarioTableTest en BD's</font></p><br>
-												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
-												<p><font size="2">Se procedera a eliminar la tabla en BD's</font></p><br>
-												<p><font size="2">La tabla a sido eliminada en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716257</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('0be84fa2-93e5-43cd-8025-7060a0787973','block');changeSingleIcon('span-0be84fa2-93e5-43cd-8025-7060a0787973');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0be84fa2-93e5-43cd-8025-7060a0787973' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716257</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getAllModels</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.029s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="0be84fa2-93e5-43cd-8025-7060a0787973" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo #5 U #8 o su apellido es #3</font></p><br>
-												<p><font size="2">Se recuperaron 3 los cuales son: [TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=))]</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358715848</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('4bb8f91d-833d-4dca-86bc-1f029087f8c9','block');changeSingleIcon('span-4bb8f91d-833d-4dca-86bc-1f029087f8c9');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4bb8f91d-833d-4dca-86bc-1f029087f8c9' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358715848</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>createTable</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.023s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="4bb8f91d-833d-4dca-86bc-1f029087f8c9" style="display: block;">
-												<p><font size="2">Se creara la tabla testModel en BD's</font></p><br>
-												<p><font size="2">La tabla a sido creada en BD's</font></p><br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1695358716549</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('1e59caa2-3723-4500-9050-d68a98aa36fb','block');changeSingleIcon('span-1e59caa2-3723-4500-9050-d68a98aa36fb');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestSQLite</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1e59caa2-3723-4500-9050-d68a98aa36fb' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1695358716549</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>deleteModels</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.130s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="1e59caa2-3723-4500-9050-d68a98aa36fb" style="display: block;">
-												<p><font size="2">Limpiamos el modelo</font></p><br>
-												<p><font size="2">Obtenemos los modelos que poseen nombre es Modelo #5 U #8 o su apellido es #3</font></p><br>
-												<p><font size="2">Se recuperaron 3 Para eliminar: [TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))]</font></p><br>
-												<p><font size="2">Filas eliminadas en BD's: 3 [TestModel(id=Column(name=Id, valor=4, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #3, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #3, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=false, size=)), TestModel(id=Column(name=Id, valor=6, default_value=null, columnExist=true, size=), name=Column(name=Name, valor=Modelo #5, default_value='Daniel', columnExist=true, size=200), apellido=Column(name=Apellido, valor=Apellido #5, default_value=null, columnExist=true, size=200), isMayor=Column(name=IsMayor, valor=false, default_value=true, columnExist=true, size=)), TestModel(id=Column(name=Id, valor=9, default_value=null, columnExist=false, size=), name=Column(name=Name, valor=Modelo #8, default_value='Daniel', columnExist=false, size=200), apellido=Column(name=Apellido, valor=Apellido #8, default_value=null, columnExist=false, size=200), isMayor=Column(name=IsMayor, valor=true, default_value=true, columnExist=false, size=))]</font></p><br>
 								</td>
 	</div>
 </tr>
