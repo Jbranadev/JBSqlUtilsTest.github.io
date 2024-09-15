@@ -1,218 +1,245 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta name="description" content="TestNG unit test results." />
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/reportngClass.css" rel="stylesheet" />
-  <script type="text/javascript" src="js/reportngClass.js"></script>
-  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
-  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
-  <script type="text/javascript" src="js/json-min.js"></script>
-  <script type="text/javascript">
-	$(document).ready(function(){
-		$('.tablesorter').tablesorter({sortList: [[0,0]]});
-	});
-  </script>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="TestNG unit test results." name="description"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/reportngClass.css" rel="stylesheet"/>
+    <script src="js/reportngClass.js" type="text/javascript"></script>
+    <script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
+    <script src="js/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="js/json-min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.tablesorter').tablesorter({sortList: [[0, 0]]});
+        });
+    </script>
 </head>
-<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<body onkeypress="collapseExpand();" onload="doParse(); return false;">
 <div class="well well-large">
-	<b>Test Info</>
-	<table class="table">
-	  <tr>
-	    <th>Test Name : </th>
-	    <th>
-	    	<div class="tooltipCustom">
-	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
-	    		<span class="tooltiptextCustom">Copy Test name</span>
-			</div>
-	    </th>
-	    <th id="testNameId">Test Utilities</th> 
-	  </tr>
-	  <tr>
-	    <th>Test Class : </th>
-	    <th>
-	    	<div class="tooltipCustom">
-	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
-	    		<span class="tooltiptextCustom">Copy full path Class name</span>
-			</div>
-	    	<div class="tooltipCustom">
-	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
-	    		<span class="tooltiptextCustom">Copy Class name</span>
-			</div>
-	    </th> 
-	    <th id="testClassId">io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</th>
-	    <th id="testClassNameId" hidden="true">JBSqlUtilsTestUtilities</th>
-	  </tr>
-	  <tr>
-	    <th>Suite Name : </th>
-	    <th>
-	    	<div class="tooltipCustom">
-	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
-	    		<span class="tooltiptextCustom">Copy Suite name</span>
-			</div>
-		</th>
-	    <th id="suiteNameId">JBSqlUtils</th>
-	  </tr>
-	  <tr>
-	    <th>Suite XML : </th>
-	    <th>
-	    	<div class="tooltipCustom">
-	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
-	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
-			</div>
-	    	<div class="tooltipCustom">
-	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
-	    		<span class="tooltiptextCustom">Copy Suite file name</span>
-			</div>
-	    </th> 
-	  	<th id="suiteXMLId">C:\Users\josec\IdeaProjects\JBSqlUtils\JBSqlUtilsTest.xml</th>
-	  	<th id="suiteXMLNameId" hidden="true">JBSqlUtilsTest.xml</th>
-	  </tr>
-	  	  <tr>
-	    <th>Total Time : </th>
-	    <th></th>
-	    <th>00:00:00</th> 
-	  </tr>
-	  <tr>
-	    <th>Total Steps : </th>
-	   	<th></th>
-	    <th>5</th> 
-	  </tr>
-	  <tr>
-	    <th>Status : </th>
-	    <th></th>
-	    <th><font color="green">PASS</font></th> 
-	  </tr>
-	</table>
+    <b>Test Info</>
+    <table class="table">
+        <tr>
+            <th>Test Name :</th>
+            <th>
+                <div class="tooltipCustom">
+                    <img alt="Copy to Clipboard" height="15" onclick="copyToClipboard('#testNameId')" src="images/copy.png"
+                         width="10"/>
+                    <span class="tooltiptextCustom">Copy Test name</span>
+                </div>
+            </th>
+            <th id="testNameId">Test Utilities</th>
+        </tr>
+        <tr>
+            <th>Test Class :</th>
+            <th>
+                <div class="tooltipCustom">
+                    <img alt="Copy to Clipboard" height="15" onclick="copyToClipboard('#testClassId')" src="images/copy.png"
+                         width="10"/>
+                    <span class="tooltiptextCustom">Copy full path Class name</span>
+                </div>
+                <div class="tooltipCustom">
+                    <img alt="Copy to Clipboard" height="15" onclick="copyToClipboard('#testClassNameId')" src="images/copy.png"
+                         width="10"/>
+                    <span class="tooltiptextCustom">Copy Class name</span>
+                </div>
+            </th>
+            <th id="testClassId">io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</th>
+            <th hidden="true" id="testClassNameId">JBSqlUtilsTestUtilities</th>
+        </tr>
+        <tr>
+            <th>Suite Name :</th>
+            <th>
+                <div class="tooltipCustom">
+                    <img alt="Copy to Clipboard" height="15" onclick="copyToClipboard('#suiteNameId')" src="images/copy.png"
+                         width="10"/>
+                    <span class="tooltiptextCustom">Copy Suite name</span>
+                </div>
+            </th>
+            <th id="suiteNameId">JBSqlUtils</th>
+        </tr>
+        <tr>
+            <th>Suite XML :</th>
+            <th>
+                <div class="tooltipCustom">
+                    <img alt="Copy to Clipboard" height="15" onclick="copyToClipboard('#suiteXMLId')" src="images/copy.png"
+                         width="10"/>
+                    <span class="tooltiptextCustom">Copy Suite full path name</span>
+                </div>
+                <div class="tooltipCustom">
+                    <img alt="Copy to Clipboard" height="15" onclick="copyToClipboard('#suiteXMLNameId')" src="images/copy.png"
+                         width="10"/>
+                    <span class="tooltiptextCustom">Copy Suite file name</span>
+                </div>
+            </th>
+            <th id="suiteXMLId">C:\Users\josec\IdeaProjects\JBSqlUtils\JBSqlUtilsTest.xml</th>
+            <th hidden="true" id="suiteXMLNameId">JBSqlUtilsTest.xml</th>
+        </tr>
+        <tr>
+            <th>Total Time :</th>
+            <th></th>
+            <th>00:00:00</th>
+        </tr>
+        <tr>
+            <th>Total Steps :</th>
+            <th></th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <th>Status :</th>
+            <th></th>
+            <th><font color="green">PASS</font></th>
+        </tr>
+    </table>
 </div>
 <div class="well well-large">
-	<div class="row">
-		<div class="col-xs-12">
-	        <div class="text-right">
-	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
-	        </div>
-	    </div>
-	</div>
-	<table class="tablesorter" border="1">
-		<thead>
-		<tr>
-		<th class="headerTime">Time</th>
-		<th class="headerTime" width="12%">Info</th>
-		<th class="headerTime" width="88%">Test</th>
-		</tr>
-		</thead>
-		<tbody>
-		
-				
-				
-				
-				
-				
-												<tr>
-			<td class="time">1699202427306</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('f49ad144-d24f-4e8c-9637-6a421978628d','block');changeSingleIcon('span-f49ad144-d24f-4e8c-9637-6a421978628d');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f49ad144-d24f-4e8c-9637-6a421978628d' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1699202427306</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>geColumn</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.008s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="f49ad144-d24f-4e8c-9637-6a421978628d" style="display: block;">
-					</td>
-	</div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="text-right">
+                <button class="btn-danger" class="btn pull-right" id="hideResults" onclick="collapseExpand(this);"
+                        onkeypress="collapseExpand(this);" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods"
+                        type="button">
+                    Show Only Failures
+                </button>
+            </div>
+        </div>
+    </div>
+    <table border="1" class="tablesorter">
+        <thead>
+        <tr>
+            <th class="headerTime">Time</th>
+            <th class="headerTime" width="12%">Info</th>
+            <th class="headerTime" width="88%">Test</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        <tr>
+            <td class="time">1699202427306</td>
+            <td class="header passed" colspan="4"
+                onClick="toggleElement('f49ad144-d24f-4e8c-9637-6a421978628d','block');changeSingleIcon('span-f49ad144-d24f-4e8c-9637-6a421978628d');"
+                style="cursor: pointer;" title="Click to expand/collapse">
+                <div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities
+                </div>
+                <div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span
+                        class="glyphicon glyphicon-menu-down" id='span-f49ad144-d24f-4e8c-9637-6a421978628d'></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="time">1699202427306</td>
+            <td class="methodTest">
+                <span class="description"><b>Method: </b>geColumn</span><br>
+                <span class="description"><b>Description: </b></span><br>
+                <span class="duration"><b>Duration: </b>0.008s</span><br>
+            </td>
+            <td class="result">
+                <div class="stackTrace" id="f49ad144-d24f-4e8c-9637-6a421978628d" style="display: block;">
+            </td>
+</div>
 </tr>
-						<tr>
-			<td class="time">1699202427291</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('0846fae4-e42f-4e4d-8904-17f10e6e0921','block');changeSingleIcon('span-0846fae4-e42f-4e4d-8904-17f10e6e0921');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0846fae4-e42f-4e4d-8904-17f10e6e0921' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1699202427291</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getBooleanFromInt</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.003s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="0846fae4-e42f-4e4d-8904-17f10e6e0921" style="display: block;">
-					</td>
-	</div>
+<tr>
+    <td class="time">1699202427291</td>
+    <td class="header passed" colspan="4"
+        onClick="toggleElement('0846fae4-e42f-4e4d-8904-17f10e6e0921','block');changeSingleIcon('span-0846fae4-e42f-4e4d-8904-17f10e6e0921');"
+        style="cursor: pointer;" title="Click to expand/collapse">
+        <div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities
+        </div>
+        <div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span
+                class="glyphicon glyphicon-menu-down" id='span-0846fae4-e42f-4e4d-8904-17f10e6e0921'></span></div>
+    </td>
 </tr>
-						<tr>
-			<td class="time">1699202427339</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('8a3d290b-5c64-470a-824b-ece902fce6b0','block');changeSingleIcon('span-8a3d290b-5c64-470a-824b-ece902fce6b0');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8a3d290b-5c64-470a-824b-ece902fce6b0' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1699202427339</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>refreshModel</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.907s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="8a3d290b-5c64-470a-824b-ece902fce6b0" style="display: block;">
-												<p><font size="2">Se refrescará el modelo con la información existente en BD's</font></p><br>
-												<p><font size="2">Se refresco el modelo con la información existente en BD's</font></p><br>
-								</td>
-	</div>
+<tr>
+    <td class="time">1699202427291</td>
+    <td class="methodTest">
+        <span class="description"><b>Method: </b>getBooleanFromInt</span><br>
+        <span class="description"><b>Description: </b></span><br>
+        <span class="duration"><b>Duration: </b>0.003s</span><br>
+    </td>
+    <td class="result">
+        <div class="stackTrace" id="0846fae4-e42f-4e4d-8904-17f10e6e0921" style="display: block;">
+    </td>
+    </div>
 </tr>
-						<tr>
-			<td class="time">1699202427299</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('b9a8ae63-0d6e-49ae-a902-6a5e586a11ff','block');changeSingleIcon('span-b9a8ae63-0d6e-49ae-a902-6a5e586a11ff');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-b9a8ae63-0d6e-49ae-a902-6a5e586a11ff' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1699202427299</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>getIntFromBoolean</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.002s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="b9a8ae63-0d6e-49ae-a902-6a5e586a11ff" style="display: block;">
-					</td>
-	</div>
+<tr>
+    <td class="time">1699202427339</td>
+    <td class="header passed" colspan="4"
+        onClick="toggleElement('8a3d290b-5c64-470a-824b-ece902fce6b0','block');changeSingleIcon('span-8a3d290b-5c64-470a-824b-ece902fce6b0');"
+        style="cursor: pointer;" title="Click to expand/collapse">
+        <div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities
+        </div>
+        <div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span
+                class="glyphicon glyphicon-menu-down" id='span-8a3d290b-5c64-470a-824b-ece902fce6b0'></span></div>
+    </td>
 </tr>
-						<tr>
-			<td class="time">1699202427319</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1','block');changeSingleIcon('span-d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1699202427319</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>setPropertiesConexion</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>0.014s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1" style="display: block;">
-												<p><font size="2">Seteara las propiedades de conexión Globales para SQLite</font></p><br>
-												<p><font size="2">Ha seteado las propiedades de conexión globales para SQLite</font></p><br>
-								</td>
-	</div>
+<tr>
+    <td class="time">1699202427339</td>
+    <td class="methodTest">
+        <span class="description"><b>Method: </b>refreshModel</span><br>
+        <span class="description"><b>Description: </b></span><br>
+        <span class="duration"><b>Duration: </b>0.907s</span><br>
+    </td>
+    <td class="result">
+        <div class="stackTrace" id="8a3d290b-5c64-470a-824b-ece902fce6b0" style="display: block;">
+            <p><font size="2">Se refrescará el modelo con la información existente en BD's</font></p><br>
+            <p><font size="2">Se refresco el modelo con la información existente en BD's</font></p><br>
+    </td>
+    </div>
 </tr>
-					  
-	</tbody>
-	</table>
+<tr>
+    <td class="time">1699202427299</td>
+    <td class="header passed" colspan="4"
+        onClick="toggleElement('b9a8ae63-0d6e-49ae-a902-6a5e586a11ff','block');changeSingleIcon('span-b9a8ae63-0d6e-49ae-a902-6a5e586a11ff');"
+        style="cursor: pointer;" title="Click to expand/collapse">
+        <div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities
+        </div>
+        <div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span
+                class="glyphicon glyphicon-menu-down" id='span-b9a8ae63-0d6e-49ae-a902-6a5e586a11ff'></span></div>
+    </td>
+</tr>
+<tr>
+    <td class="time">1699202427299</td>
+    <td class="methodTest">
+        <span class="description"><b>Method: </b>getIntFromBoolean</span><br>
+        <span class="description"><b>Description: </b></span><br>
+        <span class="duration"><b>Duration: </b>0.002s</span><br>
+    </td>
+    <td class="result">
+        <div class="stackTrace" id="b9a8ae63-0d6e-49ae-a902-6a5e586a11ff" style="display: block;">
+    </td>
+    </div>
+</tr>
+<tr>
+    <td class="time">1699202427319</td>
+    <td class="header passed" colspan="4"
+        onClick="toggleElement('d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1','block');changeSingleIcon('span-d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1');"
+        style="cursor: pointer;" title="Click to expand/collapse">
+        <div style="float:left;"><i>Class&nbsp;:&nbsp;</i>io.github.josecarlosbran.JBSqlUtils.JBSqlUtilsTestUtilities
+        </div>
+        <div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span
+                class="glyphicon glyphicon-menu-down" id='span-d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1'></span></div>
+    </td>
+</tr>
+<tr>
+    <td class="time">1699202427319</td>
+    <td class="methodTest">
+        <span class="description"><b>Method: </b>setPropertiesConexion</span><br>
+        <span class="description"><b>Description: </b></span><br>
+        <span class="duration"><b>Duration: </b>0.014s</span><br>
+    </td>
+    <td class="result">
+        <div class="stackTrace" id="d9c3c65f-c7ab-46ea-bd40-88eb5b253eb1" style="display: block;">
+            <p><font size="2">Seteara las propiedades de conexión Globales para SQLite</font></p><br>
+            <p><font size="2">Ha seteado las propiedades de conexión globales para SQLite</font></p><br>
+    </td>
+    </div>
+</tr>
+
+</tbody>
+</table>
 </div>
 </body>
 </html>

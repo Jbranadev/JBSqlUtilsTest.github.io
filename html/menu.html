@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="sidebar-header">
-	<img src="images/testng.png" style="width:150px;height:70px;">
+    <img src="images/testng.png" style="width:150px;height:70px;">
 </div>
 <div class="list-group" style="font-weight:bold">
-	<a href="overview.html" target="overview" class="list-group-item"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Overview&nbsp;</a>
-	<a href="#pageSubmenuResults" class="list-group-item" data-toggle="collapse" aria-expanded="false"><span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;Results&nbsp;</a>
-		<ul class="collapse list-unstyled" id="pageSubmenuResults">
-			<a href="suites.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Suite Results&nbsp;</a>
-			<a href="suites_overview.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Test Results&nbsp;</a>
-			<a href="packages.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Package Results&nbsp;</a>
-			<a href="groupsresults.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Group Results&nbsp;</a>
-        </ul>
-    <a href="#pageSubmenuIssues" class="list-group-item" data-toggle="collapse" aria-expanded="false"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Issues&nbsp;</a>
-		<ul class="collapse list-unstyled" id="pageSubmenuIssues">
-			<a href="newIssues.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;New&nbsp;(0)&nbsp;</a>
-        	        	<a href="skippedIssues.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Skipped&nbsp;(0)&nbsp;</a>
-        </ul>
-          
-	<a href="#pageSubmenuFeatures" class="list-group-item" data-toggle="collapse" aria-expanded="false"><span class="glyphicon glyphicon-th-large"></span>&nbsp;&nbsp;Features&nbsp;</a>
-		<ul class="collapse list-unstyled" id="pageSubmenuFeatures">
-			<a href="regression.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Regression&nbsp; (0)&nbsp;</a>
-        	        </ul>
-    
-    <a href="runArguments.html" target="overview" class="list-group-item"><span class="glyphicon glyphicon-random"></span>&nbsp;&nbsp;Run Arguments&nbsp;</a>
-    <a href="#pageSubmenu" class="list-group-item" data-toggle="collapse" aria-expanded="false"><span class="glyphicon glyphicon-equalizer"></span>&nbsp;&nbsp;Graphs&nbsp;</a>
-		<ul class="collapse list-unstyled" id="pageSubmenu">
-			<a href="graphsTime.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Test Results&nbsp;</a>
-        	<a href="graphsRClass.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Class Results&nbsp;</a>
-        	<a href="graphsRSuite.html" class="list-group-item" target="overview">&nbsp;&nbsp;&nbsp;Suite Results&nbsp;</a>
-        </ul>
-	<a href="output.html" target="overview" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;Report Output&nbsp;</a>
-	;
+    <a class="list-group-item" href="overview.html" target="overview"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Overview&nbsp;</a>
+    <a aria-expanded="false" class="list-group-item" data-toggle="collapse" href="#pageSubmenuResults"><span
+            class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;Results&nbsp;</a>
+    <ul class="collapse list-unstyled" id="pageSubmenuResults">
+        <a class="list-group-item" href="suites.html" target="overview">&nbsp;&nbsp;&nbsp;Suite Results&nbsp;</a>
+        <a class="list-group-item" href="suites_overview.html" target="overview">&nbsp;&nbsp;&nbsp;Test
+            Results&nbsp;</a>
+        <a class="list-group-item" href="packages.html" target="overview">&nbsp;&nbsp;&nbsp;Package Results&nbsp;</a>
+        <a class="list-group-item" href="groupsresults.html" target="overview">&nbsp;&nbsp;&nbsp;Group Results&nbsp;</a>
+    </ul>
+    <a aria-expanded="false" class="list-group-item" data-toggle="collapse" href="#pageSubmenuIssues"><span
+            class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Issues&nbsp;</a>
+    <ul class="collapse list-unstyled" id="pageSubmenuIssues">
+        <a class="list-group-item" href="newIssues.html" target="overview">&nbsp;&nbsp;&nbsp;New&nbsp;(0)&nbsp;</a>
+        <a class="list-group-item" href="skippedIssues.html"
+           target="overview">&nbsp;&nbsp;&nbsp;Skipped&nbsp;(0)&nbsp;</a>
+    </ul>
+
+    <a aria-expanded="false" class="list-group-item" data-toggle="collapse" href="#pageSubmenuFeatures"><span
+            class="glyphicon glyphicon-th-large"></span>&nbsp;&nbsp;Features&nbsp;</a>
+    <ul class="collapse list-unstyled" id="pageSubmenuFeatures">
+        <a class="list-group-item" href="regression.html" target="overview">&nbsp;&nbsp;&nbsp;Regression&nbsp;
+            (0)&nbsp;</a>
+    </ul>
+
+    <a class="list-group-item" href="runArguments.html" target="overview"><span
+            class="glyphicon glyphicon-random"></span>&nbsp;&nbsp;Run Arguments&nbsp;</a>
+    <a aria-expanded="false" class="list-group-item" data-toggle="collapse" href="#pageSubmenu"><span
+            class="glyphicon glyphicon-equalizer"></span>&nbsp;&nbsp;Graphs&nbsp;</a>
+    <ul class="collapse list-unstyled" id="pageSubmenu">
+        <a class="list-group-item" href="graphsTime.html" target="overview">&nbsp;&nbsp;&nbsp;Test Results&nbsp;</a>
+        <a class="list-group-item" href="graphsRClass.html" target="overview">&nbsp;&nbsp;&nbsp;Class Results&nbsp;</a>
+        <a class="list-group-item" href="graphsRSuite.html" target="overview">&nbsp;&nbsp;&nbsp;Suite Results&nbsp;</a>
+    </ul>
+    <a class="list-group-item" href="output.html" target="overview"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;Report
+        Output&nbsp;</a>
+    ;
 </div>
 </body>
 </html>

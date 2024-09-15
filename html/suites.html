@@ -1,47 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta name="description" content="TestNG unit test results." />
-  <link rel="stylesheet" href="css/reportng.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script> 
-  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
-  <script type="text/javascript" src="js/reportng.js"></script>
-  <script type="text/javascript">$(document).ready(function(){$('#suiteResults').tablesorter({});});</script>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="TestNG unit test results." name="description"/>
+    <link href="css/reportng.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="js/reportng.js" type="text/javascript"></script>
+    <script type="text/javascript">$(document).ready(function () {
+        $('#suiteResults').tablesorter({});
+    });</script>
 </head>
-<body onload="return false;" onkeypress="hidePassSuites();">
+<body onkeypress="hidePassSuites();" onload="return false;">
 <div class="row">
-	<div class="col-xs-12">
-	<h3 class="normal" style="float: left;">Suite Results</h3><br>
-	<button id="hideResults" type="button" class="btn-danger" onclick="hidePassSuites(this);" style="float: right;" title="Click or Press Any key to Hide/Show All Passed Suites">Show Only Failures</button>
+    <div class="col-xs-12">
+        <h3 class="normal" style="float: left;">Suite Results</h3><br>
+        <button class="btn-danger" id="hideResults" onclick="hidePassSuites(this);" style="float: right;" title="Click or Press Any key to Hide/Show All Passed Suites"
+                type="button">Show Only Failures
+        </button>
     </div>
 </div>
 <br>
 <div class="well well-large">
-<table class="table table-bordered" id="suiteResults">
-	<thead>
-   		<tr class="columnHeadings">
-   			<th class="header" style="vertical-align:middle;text-align:left;width:6%">StartTime</th>
-   		 	<th class="header" style="vertical-align:middle;text-align:left;width:23%">Parent Suite Name</th>
-    		<th class="header" style="vertical-align:middle;text-align:left;width:23%">Suite Name</th>
-    		<th class="header" style="vertical-align:middle;width:6%">Parallel</th>
-    		<th class="header" style="vertical-align:middle;width:6%">Duration</th>
-	    	<th class="header" style="vertical-align:middle;width:6%">Passed</th>
-	    	<th class="header" style="vertical-align:middle;width:6%">Skipped</th>
-	    		    	<th class="header" style="vertical-align:middle;width:6%">Failed</th>
-    		<th class="header" style="vertical-align:middle;width:6%">Overall Status</th>
-  		</tr>
-  	</thead>
-  	<tr class="test">
-<td>10:40:27</td><td></td><td><a href="suites_overview.html#JBSqlUtils">JBSqlUtils</a></td><td class="duration">classes:9</td><td class="duration">00:01:48</td><td class="passed number">342</td><td class="zero number">0</td><td class="zero number">0</td><td class="zero number"><font color="green">PASS</font></td></tr>
-<tbody class="avoid-sort"><tr class="suite">
-<td colspan="4">Total</td><td class="duration">00:01:48</td><td class="passed number">342</td><td class="zero number">0</td><td class="zero number">0</td><td class="zero number"><font color="green">PASS</font></td></tr>
-</tbody>
+    <table class="table table-bordered" id="suiteResults">
+        <thead>
+        <tr class="columnHeadings">
+            <th class="header" style="vertical-align:middle;text-align:left;width:6%">StartTime</th>
+            <th class="header" style="vertical-align:middle;text-align:left;width:23%">Parent Suite Name</th>
+            <th class="header" style="vertical-align:middle;text-align:left;width:23%">Suite Name</th>
+            <th class="header" style="vertical-align:middle;width:6%">Parallel</th>
+            <th class="header" style="vertical-align:middle;width:6%">Duration</th>
+            <th class="header" style="vertical-align:middle;width:6%">Passed</th>
+            <th class="header" style="vertical-align:middle;width:6%">Skipped</th>
+            <th class="header" style="vertical-align:middle;width:6%">Failed</th>
+            <th class="header" style="vertical-align:middle;width:6%">Overall Status</th>
+        </tr>
+        </thead>
+        <tr class="test">
+            <td>10:40:27</td>
+            <td></td>
+            <td><a href="suites_overview.html#JBSqlUtils">JBSqlUtils</a></td>
+            <td class="duration">classes:9</td>
+            <td class="duration">00:01:48</td>
+            <td class="passed number">342</td>
+            <td class="zero number">0</td>
+            <td class="zero number">0</td>
+            <td class="zero number"><font color="green">PASS</font></td>
+        </tr>
+        <tbody class="avoid-sort">
+        <tr class="suite">
+            <td colspan="4">Total</td>
+            <td class="duration">00:01:48</td>
+            <td class="passed number">342</td>
+            <td class="zero number">0</td>
+            <td class="zero number">0</td>
+            <td class="zero number"><font color="green">PASS</font></td>
+        </tr>
+        </tbody>
 
-</table>
+    </table>
 </div>
 </body>
 </html>
